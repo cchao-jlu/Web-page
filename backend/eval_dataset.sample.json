@@ -1,0 +1,12 @@
+[
+  {
+    "topic": "大模型发展",
+    "lang": "zh",
+    "min_sources": 3
+  },
+  {
+    "topic": "AI 监管趋势",
+    "lang": "zh",
+    "min_sources": 3
+  }
+]
