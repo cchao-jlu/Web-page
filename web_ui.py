@@ -177,12 +177,32 @@ HTML = """
 
         <div class="grid-2">
           <div>
+            <label for="provider_preset">Provider 预设</label>
+            <select id="provider_preset" name="provider_preset">
+              <option value="">手动填写</option>
+              <option value="auto">Auto</option>
+              <option value="hf-inference">HF Inference</option>
+              <option value="deepseek">DeepSeek</option>
+              <option value="openai">OpenAI</option>
+            </select>
+          </div>
+          <div>
             <label for="provider">Provider (可选)</label>
             <input id="provider" name="provider" placeholder="例如：hf-inference" value="{{ provider or '' }}" />
           </div>
           <div>
             <label for="token">HF Token (可选)</label>
             <input id="token" name="token" type="password" placeholder="仅本次使用" />
+          </div>
+        </div>
+        <div class="grid-2">
+          <div>
+            <label for="api_key">API Key (DeepSeek/OpenAI)</label>
+            <input id="api_key" name="api_key" type="password" placeholder="仅本次使用" />
+          </div>
+          <div>
+            <label for="base_url">Base URL (DeepSeek/OpenAI)</label>
+            <input id="base_url" name="base_url" placeholder="例如：https://api.deepseek.com/v1" />
           </div>
         </div>
         <div>
@@ -218,6 +238,36 @@ HTML = """
 
     <footer>Generated at {{ timestamp }}</footer>
   </div>
+  <script>
+    (function () {
+      const preset = document.getElementById("provider_preset");
+      const provider = document.getElementById("provider");
+      const baseUrl = document.getElementById("base_url");
+      const modelSelect = document.getElementById("model_select");
+      const modelId = document.getElementById("model_id");
+      if (!preset) return;
+
+      preset.addEventListener("change", () => {
+        const value = preset.value;
+        if (value === "auto") {
+          provider.value = "auto";
+          baseUrl.value = "";
+        } else if (value === "hf-inference") {
+          provider.value = "hf-inference";
+          baseUrl.value = "";
+        } else if (value === "deepseek") {
+          provider.value = "openai";
+          baseUrl.value = "https://api.deepseek.com/v1";
+          if (modelSelect) modelSelect.value = "__custom__";
+          modelId.value = "deepseek-chat";
+        } else if (value === "openai") {
+          provider.value = "openai";
+          baseUrl.value = "https://api.openai.com/v1";
+          if (modelSelect) modelSelect.value = "__custom__";
+        }
+      });
+    })();
+  </script>
 </body>
 </html>
 """
@@ -282,6 +332,8 @@ def run():
         model_id = model_select or None
     provider = (request.form.get("provider") or "").strip() or None
     token = (request.form.get("token") or "").strip()
+    api_key = (request.form.get("api_key") or "").strip() or None
+    base_url = (request.form.get("base_url") or "").strip() or None
 
     if token:
         os.environ["HF_TOKEN"] = token
@@ -291,6 +343,8 @@ def run():
             topic,
             model_id=model_id,
             provider=provider,
+            api_key=api_key,
+            base_url=base_url,
             max_results=max_results,
             min_sources=min_sources,
             lang=lang,

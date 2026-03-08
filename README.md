@@ -42,6 +42,8 @@ Common options:
 - `--output outputs/custom.md` Output file path
 - `--model-id <hf-model-id>` Override HF model id
 - `--provider <provider>` Override inference provider
+- `--api-key <key>` Provider API key (e.g., DeepSeek/OpenAI)
+- `--base-url <url>` Provider base URL (e.g., https://api.deepseek.com/v1)
 
 ## Output
 The agent writes a Markdown file containing:
@@ -99,6 +101,45 @@ curl -X POST http://localhost:8000/api/evals/batch \\
   -H 'Content-Type: application/json' \\
   -d '{\"dataset_path\": \"backend/eval_dataset.sample.json\"}'
 ```
+
+## Reproducible Experiments (for Defense)
+We include a minimal experiment harness to compare retrieval settings across topics.
+
+1) Edit experiment runs:
+`experiments/experiment_config.json`
+
+2) Run experiments (requires model access + web retrieval):
+
+```bash
+python backend/experiments.py \\
+  --dataset backend/eval_dataset.sample.json \\
+  --config experiments/experiment_config.json \\
+  --provider auto
+```
+
+3) Results are saved under `results/` as JSON. Use the summary section to build a comparison table in your report.
+
+## Auto-Generate Tables & Plots
+After an experiment run, generate a Markdown table + charts:
+
+```bash
+python results/report.py --input results/experiment_<id>.json --output results/report.md
+```
+
+This produces `results/report.md`, plus `avg_scores.png`, `avg_sources.png`, `radar_metrics.png`, and `score_errorbars.png`.
+
+## Defense-Ready Outputs
+- Markdown table + LaTeX table for reports
+- Radar chart for normalized metrics
+- Error-bar chart for score variance
+
+## Experiment Results (Latest Run)
+After generating the report, place the latest artifacts under `results/` and update the links below:
+
+![Average Scores](results/avg_scores.png)
+![Average Sources](results/avg_sources.png)
+![Radar Metrics](results/radar_metrics.png)
+![Score Error Bars](results/score_errorbars.png)
 ## Notes
 - The agent uses `WebSearchTool` and `VisitWebpageTool` from smolagents.
 - Output length is constrained to roughly one page.

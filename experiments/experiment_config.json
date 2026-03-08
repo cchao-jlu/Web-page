@@ -1,0 +1,32 @@
+{
+  "runs": [
+    {
+      "name": "baseline_auto",
+      "provider": "auto",
+      "model_id": null,
+      "max_results": 8,
+      "max_pages": 5
+    },
+    {
+      "name": "more_sources",
+      "provider": "auto",
+      "model_id": null,
+      "max_results": 12,
+      "max_pages": 8
+    },
+    {
+      "name": "qwen_7b",
+      "provider": "hf-inference",
+      "model_id": "Qwen/Qwen2.5-7B-Instruct",
+      "max_results": 8,
+      "max_pages": 5
+    },
+    {
+      "name": "llama3_8b",
+      "provider": "hf-inference",
+      "model_id": "meta-llama/Meta-Llama-3.1-8B-Instruct",
+      "max_results": 8,
+      "max_pages": 5
+    }
+  ]
+}

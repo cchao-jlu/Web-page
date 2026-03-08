@@ -4,6 +4,8 @@ from typing import Any
 
 from smolagents import InferenceClientModel
 
+from backend.openai_compat import chat_completion, extract_content
+
 
 def _call_model(
     *,
@@ -15,6 +17,20 @@ def _call_model(
     system: str,
     prompt: str,
 ) -> str:
+    if base_url and api_key:
+        if not model_id:
+            model_id = "deepseek-chat"
+        response = chat_completion(
+            base_url=base_url,
+            api_key=api_key,
+            model=model_id,
+            messages=[
+                {"role": "system", "content": system},
+                {"role": "user", "content": prompt},
+            ],
+        )
+        return extract_content(response)
+
     model = InferenceClientModel(
         model_id=model_id,
         provider=provider,

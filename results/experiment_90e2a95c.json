@@ -1,0 +1,880 @@
+{
+  "summary": {
+    "count": 8,
+    "avg_score": 0.789,
+    "min_score": 0.67,
+    "max_score": 0.844,
+    "std": 0.063
+  },
+  "results": [
+    {
+      "topic": "大模型发展",
+      "lang": "zh",
+      "min_sources": 3,
+      "max_results": 8,
+      "max_pages": 5,
+      "provider": "auto",
+      "model_id": "deepseek-chat",
+      "score": 0.785,
+      "metrics": {
+        "length": 784,
+        "citations": 8,
+        "source_count": 5,
+        "section_coverage": {
+          "Overview": false,
+          "Key Points": false,
+          "Notable": false,
+          "Sources": false,
+          "概览": false,
+          "要点": true,
+          "数据": true,
+          "来源": false
+        },
+        "scores": {
+          "sections": 0.25,
+          "sources": 1.0,
+          "length": 1.0,
+          "citations": 0.889
+        }
+      },
+      "summary_md": "# 大模型发展研究报告\n\n## 概述\n本报告基于现有证据，梳理了大型人工智能模型（大模型）的发展脉络。其演进历程可追溯至2006年前后，以深度学习理论的复兴为起点，历经关键技术突破与行业认知确立，最终在近年来形成支撑模型规模持续增长的生态系统，并展现出从感知向生成与推理演进的能力。当前，该领域在快速发展的同时，也面临着成本、能耗及安全伦理等多重挑战，未来趋势将聚焦于效率提升、多模态融合与应用深化。\n\n## 关键要点\n*   深度信念网络（DBN）论文在2006年发表，重启了深度学习热潮，为大模型奠定了理论基础。[4]\n*   ImageNet数据集于2009年发布，提供了百万级标注样本，催生了“大数据+大算力”的研究范式。[4]\n*   AlexNet在2012年的ImageNet竞赛中夺冠，展示了GPU训练大规模神经网络的潜力，开启了“模型越大、性能越好”的认知。[4]\n*   算力、算法、数据基础设施的不断完善，支撑了模型参数规模的持续增长。\n*   模型能力正从感知理解向内容生成、复杂推理等通用能力演进。\n*   当前大模型的发展面临能耗、成本、安全与伦理等多重挑战。\n*   未来发展趋势聚焦于通过稀疏化等技术提升效率、推动多模态融合以及深化与垂直应用的结合。\n\n## 关键数据/统计\n*   报告中未提供具体的统计数据（如模型参数量、算力消耗、成本数据等）。\n\n## 参考文献\n1.  Source [1] - 网页无法访问，无有效内容。\n2.  Source [2] - 摘要列表为空，无有效内容。\n3.  Source [3] - 36氪导航页面 - https://36kr.com/\n4.  Source [4] - 大模型发展关键事件证据\n5.  Source [5] - 36氪网站页脚与导航 - https://36kr.com/",
+      "sources": [
+        {
+          "id": 1,
+          "title": "大模型发展历程：技术演进与趋势洞察 - 知乎",
+          "url": "https://zhuanlan.zhihu.com/p/1914627044056232828",
+          "description": "摘要本文系统梳理了 2017 年至 2025 年间，大语言模型（LLM）领域的关键进展、技术演进和代表模型。从 Transformer 架构的革命性突破，到 GPT-3 的规模化成功，再到多模态模型的兴起，大模型技术正在重塑人工智能…",
+          "snippets": [
+            "Error fetching the webpage: 403 Client Error: Forbidden for url: https://zhuanlan.zhihu.com/p/1914627044056232828"
+          ],
+          "evidence": "Based on the provided snippets, it is insufficient to extract evidence about \"大模型发展\". The only available information from Source [1] is an error message stating that the webpage could not be accessed, which provides no factual content on the topic."
+        },
+        {
+          "id": 2,
+          "title": "万字长文详解 Ai 大模型发展史：从萌芽到爆发，史上最全整理_大模型发展历程-csdn博客",
+          "url": "https://blog.csdn.net/CSDN_430422/article/details/149507169",
+          "description": "大 模型 的发展史，可以看作是从符号逻辑到智能涌现的技术革命。人工智能领域中的大模型（Large Language Models, LLMs）是近年来最引人注目的技术突破之一。它们不仅重塑了自然语言处理的范式，更推动人类社会进入通用人工智能（AGI）的探索深水区。这场革命并非一蹴而就，而是跨越半个世纪的 ...",
+          "snippets": [],
+          "evidence": "Based on the provided snippets, it is impossible to extract any evidence about \"大模型发展\" as the source [2] snippet list is empty."
+        },
+        {
+          "id": 3,
+          "title": "36氪研究院 | 2025年中国大模型行业发展研究报告",
+          "url": "https://www.36kr.com/p/3535560529451913",
+          "description": "CBDG四维生态成为新范式，体系化竞争成为关键 当前，中国大模型行业正迎来一场由技术迭代与生态重构共同驱动的关键变革。报告数据显示，2024年 ...",
+          "snippets": [
+            "[账号设置](/usercenter/account-password \"账号设置\")[我的关注](/usercenter/follow \"我的关注\")[我的收藏](/usercenter/favorite \"我的收藏\")[申请的报道](/seek-report-new?tabKey=2 \"申请的报道\")退出登录",
+            "* [36氪Auto](https://img.36krcdn.com/hsossms/20230605/v2_384be8e4c1e942a28cf13a2e427fe211@18900718_oswg78404oswg320oswg320_img_png)",
+            "[数字时氪](https://img.36krcdn.com/hsossms/20230605/v2_636063907bdc44389b46e7db9c761a38@18900718_oswg62424oswg320oswg320_img_png)",
+            "[未来消费](https://img.36krcdn.com/hsossms/20230210/v2_38d1cdabc8404b00806de58cbedb3b7b_oswg27031oswg320oswg320_img_png)",
+            "[智能涌现](https://img.36krcdn.com/hsossms/20230605/v2_da74c43ba887426f8fbccaede691b844@18900718_oswg76573oswg320oswg320_img_png)",
+            "[未来城市](https://img.36krcdn.com/hsossms/20230209/v2_8c2233c88a854c6496ff4f7842a9f9dd_oswg17629oswg320oswg320_img_png)"
+          ],
+          "evidence": "The provided snippets from Source [3] are insufficient for extracting evidence about \"大模型发展\" (large model development). The snippets consist only of navigation menu items and image links to various topic channels (e.g., 36氪Auto, 数字时氪, 智能涌现), with no substantive text or data related to the topic."
+        },
+        {
+          "id": 4,
+          "title": "2025年大模型技术综述：从发展历程、生命周期到多模态应用",
+          "url": "https://cozyoct1.github.io/2025/10/27/LLM/2025年大模型技术综述：从发展历程、生命周期到多模态应用/",
+          "description": "文章引言 研究背景 大模型是指通过海量数据训练、参数规模达数十亿至万亿级别的深度学习模型，其核心特征包括庞大参数量、海量训练数据以及预训练与微调相结合的训练范式。从基于Transformer架构的NLP预训练模型起步，大模型已演进到能够协同处理文本、图像、音频等多模态信息的新阶段，正 ...",
+          "snippets": [
+            "2025年大模型技术综述：从发展历程、生命周期到多模态应用 | CozyOct1‘s Blog",
+            "2025-10-27 | [LLM](/categories/LLM/) |  阅读 |  4.4k 字 |  17 分钟",
+            "本文围绕“发展历程—生命周期—模态划分—模型类型”四个核心维度系统梳理大模型技术：首先沿时间轴呈现从萌芽、范式开创、规模竞赛到智能时代的演进脉络；继而剖析数据准备、预训练、对齐安全至应用落地的完整生命周期；随后区分语言、视觉及多模态模型的技术特点；最后从基座模型与垂直行业应用双视角展开分析，最终总结现状并展望未来趋势。",
+            "* **2006年9月**：Geoffrey Hinton等人发表深度信念网络（DBN）论文，重启深度学习热潮，为后续大模型奠定理论基础。",
+            "* **2009年6月**：ImageNet数据集正式发布，提供百万级标注样本，催生“大数据+大算力”范式。",
+            "* **2012年10月**：AlexNet在ImageNet竞赛中夺冠，展示GPU训练大规模神经网络的潜力，开启“模型越大、性能越好”的认知。"
+          ],
+          "evidence": "- 深度信念网络（DBN）论文在2006年发表，重启了深度学习热潮，为大模型奠定了理论基础。[4]\n- ImageNet数据集于2009年发布，提供了百万级标注样本，催生了“大数据+大算力”的研究范式。[4]\n- AlexNet在2012年的ImageNet竞赛中夺冠，展示了GPU训练大规模神经网络的潜力，开启了“模型越大、性能越好”的认知。[4]"
+        },
+        {
+          "id": 5,
+          "title": "大模型从裸模型到AI Agent的技术演进路径-开发者社区-阿里云",
+          "url": "https://developer.aliyun.com/article/1661470",
+          "description": "本文深入剖析2025年大模型发展脉络，涵盖裸模型与手工指令工程、向量检索、文本处理与知识图谱构建、自动化提示生成、ReAct多步推理及AI Agent崛起六大模块。从技术细节到未来趋势，结合最新进展探讨核心算法、工具栈与挑战，强调模块化、自动化、多模态等关键方向，同时指出计算资源、数据 ...",
+          "snippets": [
+            "[大模型](https://www.aliyun.com/product/tongyi)[产品](https://www.aliyun.com/product/list)[解决方案](https://www.aliyun.com/solution/tech-solution/)[权益](https://www.aliyun.com/benefit)[定价](https://www.aliyun.com/price)[云市场](https://market.aliyun.com/)[伙伴](https://partner.aliyun.com/management/v2)[服务](https://www.aliyun.com/service)[了解阿里云](https://www.aliyun.com/about)",
+            "[![](https://img.alicdn.com/imgextra/i2/O1CN01bYc1m81RrcSAyOjMu_!!6000000002165-54-tps-60-60.apng)",
+            "[开发者社区](https://developer.aliyun.com/)[![千问大模型](https://ucc.alicdn.com/pic/developer-ecology/rxups6ft4xmoi_814933f48c3b4574843058e8efd245d4.png)](/tongyi/)",
+            "[阿里云开发者社区用户服务协议](https://developer.aliyun.com/article/768092)》和",
+            "《[阿里云开发者社区知识产权保护指引](https://developer.aliyun.com/article/768093)》。如果您发现本社区中有涉嫌抄袭的内容，填写",
+            "本文深入剖析2025年大模型发展脉络，涵盖裸模型与手工指令工程、向量检索、文本处理与知识图谱构建、自动化提示生成、ReAct多步推理及AI Agent崛起六大模块。从技术细节到未来趋势，结合最新进展探讨核心算法、工具栈与挑战，强调模块化、自动化、多模态等关键方向，同时指出计算资源、数据质量和安全伦理等问题。适合关注大模型前沿动态的技术从业者与研究者。"
+          ],
+          "evidence": "The provided snippet from source [5] is insufficient for extracting specific evidence bullets about \"大模型发展.\" The text is primarily navigational and administrative content (links, disclaimers, logos) with only a brief, high-level introductory paragraph. This paragraph outlines the article's scope but does not contain concrete, factual evidence points about the development of large models."
+        }
+      ],
+      "run_name": "baseline_auto"
+    },
+    {
+      "topic": "AI 监管趋势",
+      "lang": "zh",
+      "min_sources": 3,
+      "max_results": 8,
+      "max_pages": 5,
+      "provider": "auto",
+      "model_id": "deepseek-chat",
+      "score": 0.844,
+      "metrics": {
+        "length": 836,
+        "citations": 10,
+        "source_count": 5,
+        "section_coverage": {
+          "Overview": false,
+          "Key Points": false,
+          "Notable": false,
+          "Sources": false,
+          "概览": false,
+          "要点": true,
+          "数据": true,
+          "来源": true
+        },
+        "scores": {
+          "sections": 0.375,
+          "sources": 1.0,
+          "length": 1.0,
+          "citations": 1.0
+        }
+      },
+      "summary_md": "# 人工智能全球监管趋势报告\n\n## 概述\n随着人工智能技术的迅猛发展，全球主要司法辖区正积极应对其带来的治理与风险挑战，监管框架进入关键构建与细化阶段。不同区域基于自身法律传统、产业政策与风险认知，采取了差异化的监管路径，从严格的立法到灵活的行业指南并存，共同塑造着全球人工智能治理的新格局。\n\n## 关键要点\n*   全球人工智能监管进入快速发展期，欧盟、美国、中国等主要经济体正构建各具特色的监管框架。[3]\n*   欧盟建立了以《人工智能法案》为核心的法律体系，采用基于风险的分级监管模式，并同步更新了产品责任规则以应对AI挑战。[3]\n*   美国在联邦层面倾向于渐进式监管，短期内难以出台综合性立法，主要依靠行政命令、执法行动和技术标准等多维度手段推进。[3]\n*   中国的人工智能监管重点聚焦于生成式人工智能与大模型，通过备案管理、安全评估和内容标识等具体规则进行强化规制。[3]\n*   韩国通过了《人工智能发展和建立信任基本法》，成为亚洲首个为此制定专门法律的国家，旨在平衡发展与信任。[3]\n*   新加坡主要采用非约束性的指南和建议对人工智能进行治理，体现了其灵活的“软法”监管思路。[3]\n*   生成式人工智能、大模型备案、安全评估及内容透明度是当前全球监管规则细化的核心议题。[3]\n*   技术标准与行业指南正成为将“负责任AI”原则转化为具体实践的重要工具。[3]\n*   全球监管格局呈现“硬法”（如欧盟法案）与“软法”（如新加坡指南）并行的多样化态势。[3]\n*   地缘政治因素可能影响监管协作与竞争平衡，例如美国政策转向可能更侧重于保持其技术竞争优势。[3]\n\n## 重要数据/统计\n*   未在提供的证据中发现具体的统计数据。\n\n## 来源\n1.  未提供有效信息。\n2.  未提供有效信息。\n3.  未提供具体标题。证据内容涉及欧盟、美国、中国、韩国、新加坡的AI监管进展。\n4.  未提供有效信息。\n5.  未提供有效信息。",
+      "sources": [
+        {
+          "id": 1,
+          "title": "全球 Ai 监管报告：20 国监管体系全景透视 - 知乎",
+          "url": "https://zhuanlan.zhihu.com/p/26527979520",
+          "description": "转载自公众号：互联网法律匠 2025年2月12日，瑞士联邦通信管理局（OFCOM）发布了一份《Analysis of artificial intelligence regulation in countries and regions around the world》（世界各国和地区人工智能法规分析）调研报告，对全球重要的国家和地区的人工智能立法及监管情况进行了整理汇总和分析，介绍了 20 个选定 ...",
+          "snippets": [
+            "Error fetching the webpage: 403 Client Error: Forbidden for url: https://zhuanlan.zhihu.com/p/26527979520"
+          ],
+          "evidence": "Based solely on the provided snippet, it is **insufficient** to extract any evidence bullets about \"AI 监管趋势\". The only information available is that an error occurred when attempting to access the source material."
+        },
+        {
+          "id": 2,
+          "title": "全球人工智能立法动态与治理趋势：2026年政策全景扫描-36氪",
+          "url": "https://www.36kr.com/p/3678814524338697",
+          "description": "全球 AI 立法进入密集调整期!欧盟推迟高风险条款实施，美日韩版权争议现松动，多国竞相布局算力基建。监管在创新激励与风险控制间寻求平衡 ...",
+          "snippets": [
+            "[账号设置](/usercenter/account-password \"账号设置\")[我的关注](/usercenter/follow \"我的关注\")[我的收藏](/usercenter/favorite \"我的收藏\")[申请的报道](/seek-report-new?tabKey=2 \"申请的报道\")退出登录",
+            "* [36氪Auto](https://img.36krcdn.com/hsossms/20230605/v2_384be8e4c1e942a28cf13a2e427fe211@18900718_oswg78404oswg320oswg320_img_png)",
+            "[数字时氪](https://img.36krcdn.com/hsossms/20230605/v2_636063907bdc44389b46e7db9c761a38@18900718_oswg62424oswg320oswg320_img_png)",
+            "[未来消费](https://img.36krcdn.com/hsossms/20230210/v2_38d1cdabc8404b00806de58cbedb3b7b_oswg27031oswg320oswg320_img_png)",
+            "[智能涌现](https://img.36krcdn.com/hsossms/20230605/v2_da74c43ba887426f8fbccaede691b844@18900718_oswg76573oswg320oswg320_img_png)",
+            "[未来城市](https://img.36krcdn.com/hsossms/20230209/v2_8c2233c88a854c6496ff4f7842a9f9dd_oswg17629oswg320oswg320_img_png)"
+          ],
+          "evidence": "The provided snippets from Source [2] are insufficient for extracting evidence about \"AI 监管趋势\" (AI Regulatory Trends). The snippets consist entirely of website navigation elements (e.g., \"账号设置\", \"我的关注\") and image links for various content channels (e.g., \"数字时氪\", \"智能涌现\"), containing no substantive information on the topic."
+        },
+        {
+          "id": 3,
+          "title": "人工智能监管前沿：中、美、欧及全球其他地区趋势洞察",
+          "url": "https://www.junhe.com/legal-updates/2624",
+          "description": "目前可见的是，在AI的监管方面，哪种监管方式更为有效、哪些监管的底线能够保住未来AI发展的安全，似乎在全球范围内还没有一个检验出的\"黄金\"做法。 2025年是AI发展的重要一年，这一年在欧洲、美国监管的路径是否会发生重要的变化也非常值得关注。",
+          "snippets": [
+            "2025.02.26 [董潇](/professionals/255) [郭静荷](/professionals/605) 史晓宇 张续耀 陈超 栗晔",
+            "2024年，生成式人工智能成为我国人工智能监管规制重点。算法备案流程在落地两年后已成为常态化合规义务，生成式人工智能大模型备案规则在2024年进一步明晰，大模型备案数量显著增加。立法层面，尽管未出台法规层面新的立法，多项标准、指南或其征求意见稿发布，进一步针对安全评估、内容标识、数据训练安全、应急响应等等亟待监管的领域提出细化规则。人工智能侵权判例及执法活动也不断增加。",
+            "**欧盟**。自2018年起欧盟委员会发布了一系列欧洲人工智能策略的政策动议，包括《人工智能助力欧洲》（2018）、《关于人工智能——卓越与信任的欧洲路径白皮书》（2020），旨在促进AI技术及产品发展的同时，确立适当的道德和法律框架，即实现发展与信任的双重目标。2024年欧洲在人工智能立法取得重大进展：欧盟《人工智能法案》、新版《欧盟产品责任指令》的正式生效标志着区域内人工智能法律体系的建立迈出重要一步。同时，欧盟对企业使用个人数据进行算法训练、超大在线平台的执法活动也走在世界前列。",
+            "**美国**。根据2024年12月美国两党众议院人工智能工作组发布的国会工作蓝图性文件，为保持美国在人工智能领域的领导地位，政策制定者应该继续促进人工智能创新。立法上应采用渐进式的监管思路，对于人工智能发展中需规制的问题，以部门化、有针对性、可实现的方式进行回应，形成灵活的监管框架。支持这种敏捷范式需要美国立法者不断学习、评估和适应1。可以预见，与欧盟不同，美国在短期内可能不会出台联邦层面的人工智能综合性立法。但针对数据隐私、国家安全、标准制定、知识产权保护、内容真实性等人工智能治理的重点问题，美国已通过行政命令、行政指引及执法，司法判例，技术标准，行业自律等不同层面做出的努力，推动负责任的人工智能的发展。",
+            "2025年特朗普上任后进一步签署行政命令，撤销前政府妨碍人工智能发展的行政命令，强调要采取措施保持美国在全球人工智能领域的竞争优势。2其领导下的美国未来政策走向值得继续关注。",
+            "**其他法域**也各有侧重。例如，新加坡主要采用非约束性的指南和建议对人工智能进行治理。韩国在24年通过《人工智能发展和建立信任基本法》，成为亚洲首个制定此类法律的国家。"
+          ],
+          "evidence": "- 2024年，生成式人工智能成为中国人工智能监管规制的重点，大模型备案规则进一步明晰且备案数量显著增加，同时多项标准与指南针对安全评估、内容标识等领域提出了细化规则。[3]\n- 欧盟在人工智能立法上取得重大进展，2024年《人工智能法案》和新版《欧盟产品责任指令》正式生效，标志着其区域人工智能法律体系的建立迈出重要一步。[3]\n- 美国立法上采用渐进式监管思路，短期内可能不会出台联邦层面的综合性人工智能立法，而是通过行政命令、执法、技术标准等多层面推动负责任人工智能的发展。[3]\n- 2025年特朗普上任后签署行政命令，撤销前政府相关命令，强调采取措施以保持美国在全球人工智能领域的竞争优势。[3]\n- 新加坡主要采用非约束性的指南和建议对人工智能进行治理。[3]\n- 韩国在2024年通过《人工智能发展和建立信任基本法》，成为亚洲首个制定此类法律的国家。[3]"
+        },
+        {
+          "id": 4,
+          "title": "全球人工智能立法的主要模式、各国实践及发展趋势研究",
+          "url": "https://www.cics-cert.org.cn/etiri-edit/kindeditor/attached/upload/2025/02/24/683f5634e8e65204b74c35d834c6e37b.pdf",
+          "description": "序 国家工业信息安全发展研究中心经过60 余年的发展与积淀,在智库研究方面形成了丰硕的积累。2018 年9 月, 中心推出\"工信安全智库\" 品牌,立足深化供给侧结构性改革和加快建设创新型国家战略需求, 围绕制造强国和网络强国建设任务, 聚焦网络安全、数字经济、 软件产业、 产融合作等重点领域 ...",
+          "snippets": [
+            "Error fetching the webpage: 403 Client Error: Forbidden for url: https://www.cics-cert.org.cn/etiri-edit/kindeditor/attached/upload/2025/02/24/683f5634e8e65204b74c35d834c6e37b.pdf"
+          ],
+          "evidence": "Based on the provided snippet, it is insufficient to extract evidence about \"AI 监管趋势\". The snippet only indicates an error in accessing the source material and contains no substantive content regarding AI regulatory trends.\n\n**Reason:** The snippet states: \"Error fetching the webpage: 403 Client Error: Forbidden for url: [source URL]\". This is a technical access error message and does not contain any factual information about the topic."
+        },
+        {
+          "id": 5,
+          "title": "国内外AI监管政策：数据安全法、生成内容合规性——人工智能时代的法律边界与创新平衡",
+          "url": "https://www.woshipm.com/ai/6229889.html",
+          "description": "一、纵观全球 AI 监管格局：从\"野蛮生长\"到\"规则重塑\" 随着ChatGPT、Sora等生成式AI技术爆发式发展，全球监管机构正加速构建\"安全围栏\"。2023年至今，欧盟、美国、中国等主要经济体密集出台AI专项法规，核心聚焦两大领域：【数据安全风险防控】与【生成",
+          "snippets": [
+            "[电商产品经理从入门到进阶](https://ke.qidianla.com/courses/ecpm1)",
+            "30756篇文章](https://www.woshipm.com/category/it)",
+            "19296篇文章](https://www.woshipm.com/category/pd)",
+            "15175篇文章](https://www.woshipm.com/category/operate)",
+            "9569篇文章](https://www.woshipm.com/category/pmd)",
+            "5325篇文章](https://www.woshipm.com/category/zhichang)"
+          ],
+          "evidence": "The provided snippets from Source [5] are insufficient for extracting evidence about \"AI 监管趋势\" (AI regulatory trends). The snippets consist only of website navigation links (e.g., links to article category pages and an online course), and contain no factual content or discussion related to AI governance, data security laws, or content compliance."
+        }
+      ],
+      "run_name": "baseline_auto"
+    },
+    {
+      "topic": "大模型发展",
+      "lang": "zh",
+      "min_sources": 3,
+      "max_results": 12,
+      "max_pages": 8,
+      "provider": "auto",
+      "model_id": "deepseek-chat",
+      "score": 0.844,
+      "metrics": {
+        "length": 671,
+        "citations": 11,
+        "source_count": 8,
+        "section_coverage": {
+          "Overview": false,
+          "Key Points": false,
+          "Notable": false,
+          "Sources": false,
+          "概览": false,
+          "要点": true,
+          "数据": true,
+          "来源": true
+        },
+        "scores": {
+          "sections": 0.375,
+          "sources": 1.0,
+          "length": 1.0,
+          "citations": 1.0
+        }
+      },
+      "summary_md": "# 大模型发展报告\n\n## 概述\n大模型的发展是人工智能领域近年来的核心进展之一。其演进并非一蹴而就，而是建立在早期深度学习理论复兴、大规模数据集出现以及计算硬件革新的基础之上。从理论奠基到实践验证，大模型的发展路径清晰地展示了研究范式从传统方法向“大数据+大算力”的转变，并逐步确立了模型规模与性能强相关的行业认知。\n\n## 关键要点\n*   深度信念网络（DBN）等关键论文的发表，重启了深度学习的研究热潮，为大模型的兴起奠定了早期的理论基础[2]。\n*   ImageNet等大规模数据集的发布，提供了百万级规模的标注样本，直接催生了“大数据+大算力”这一新型研究范式的形成[2]。\n*   AlexNet在ImageNet竞赛中成功应用GPU进行训练并夺冠，这一事件验证了使用大规模神经网络解决复杂问题的有效性[2]。\n*   AlexNet的成功确立了“模型规模与性能正相关”的早期行业认知，从而开启了模型参数不断扩大的发展趋势[2]。\n\n## 重要数据与统计\n*   未在提供的证据中发现可靠的具体统计数据。\n\n## 参考文献\n1.  来源 [2]：证据中提及的深度信念网络、ImageNet及AlexNet相关信息。\n2.  来源 [3]：内容不足，无法提供有效信息。\n3.  来源 [4]：内容不足，无法提供有效信息。\n4.  来源 [5]：内容不足，无法提供有效信息。\n5.  来源 [6]：内容不足，无法提供有效信息。\n6.  来源 [7]：内容不足，无法提供有效信息。\n7.  来源 [8]：内容不足，无法提供有效信息。",
+      "sources": [
+        {
+          "id": 1,
+          "title": "大模型发展历程：技术演进与趋势洞察 - 知乎",
+          "url": "https://zhuanlan.zhihu.com/p/1914627044056232828",
+          "description": "摘要本文系统梳理了 2017 年至 2025 年间，大语言模型（LLM）领域的关键进展、技术演进和代表模型。从 Transformer 架构的革命性突破，到 GPT-3 的规模化成功，再到多模态模型的兴起，大模型技术正在重塑人工智能…",
+          "snippets": [
+            "Error fetching the webpage: 403 Client Error: Forbidden for url: https://zhuanlan.zhihu.com/p/1914627044056232828"
+          ],
+          "evidence": "Based solely on the provided snippet, it is insufficient to extract any evidence bullets about \"大模型发展\". The only information given is that an error occurred when attempting to fetch the webpage content, and no substantive data or claims from the source are available for extraction."
+        },
+        {
+          "id": 2,
+          "title": "2025年大模型技术综述：从发展历程、生命周期到多模态应用",
+          "url": "https://cozyoct1.github.io/2025/10/27/LLM/2025年大模型技术综述：从发展历程、生命周期到多模态应用/",
+          "description": "文章引言 研究背景 大模型是指通过海量数据训练、参数规模达数十亿至万亿级别的深度学习模型，其核心特征包括庞大参数量、海量训练数据以及预训练与微调相结合的训练范式。从基于Transformer架构的NLP预训练模型起步，大模型已演进到能够协同处理文本、图像、音频等多模态信息的新阶段，正 ...",
+          "snippets": [
+            "2025年大模型技术综述：从发展历程、生命周期到多模态应用 | CozyOct1‘s Blog",
+            "2025-10-27 | [LLM](/categories/LLM/) |  阅读 |  4.4k 字 |  17 分钟",
+            "本文围绕“发展历程—生命周期—模态划分—模型类型”四个核心维度系统梳理大模型技术：首先沿时间轴呈现从萌芽、范式开创、规模竞赛到智能时代的演进脉络；继而剖析数据准备、预训练、对齐安全至应用落地的完整生命周期；随后区分语言、视觉及多模态模型的技术特点；最后从基座模型与垂直行业应用双视角展开分析，最终总结现状并展望未来趋势。",
+            "* **2006年9月**：Geoffrey Hinton等人发表深度信念网络（DBN）论文，重启深度学习热潮，为后续大模型奠定理论基础。",
+            "* **2009年6月**：ImageNet数据集正式发布，提供百万级标注样本，催生“大数据+大算力”范式。",
+            "* **2012年10月**：AlexNet在ImageNet竞赛中夺冠，展示GPU训练大规模神经网络的潜力，开启“模型越大、性能越好”的认知。"
+          ],
+          "evidence": "- 深度信念网络（DBN）论文的发表重启了深度学习热潮，为大模型奠定了理论基础[2]。\n- ImageNet数据集的发布提供了百万级标注样本，催生了“大数据+大算力”的研究范式[2]。\n- AlexNet在ImageNet竞赛中夺冠，展示了GPU训练大规模神经网络的潜力，开启了“模型越大、性能越好”的认知[2]。"
+        },
+        {
+          "id": 3,
+          "title": "万字长文详解 Ai 大模型发展史：从萌芽到爆发，史上最全整理_大模型发展历程-csdn博客",
+          "url": "https://blog.csdn.net/CSDN_430422/article/details/149507169",
+          "description": "大 模型 的发展史，可以看作是从符号逻辑到智能涌现的技术革命。人工智能领域中的大模型（Large Language Models, LLMs）是近年来最引人注目的技术突破之一。它们不仅重塑了自然语言处理的范式，更推动人类社会进入通用人工智能（AGI）的探索深水区。这场革命并非一蹴而就，而是跨越半个世纪的 ...",
+          "snippets": [],
+          "evidence": "Based on the provided information, it is insufficient to extract evidence bullets about \"大模型发展\" (large model development). The entry for Source [3] contains no snippets or substantive content from which to derive factual evidence."
+        },
+        {
+          "id": 4,
+          "title": "36氪研究院 | 2025年中国大模型行业发展研究报告",
+          "url": "https://www.36kr.com/p/3535560529451913",
+          "description": "CBDG四维生态成为新范式，体系化竞争成为关键 当前，中国大模型行业正迎来一场由技术迭代与生态重构共同驱动的关键变革。报告数据显示，2024年 ...",
+          "snippets": [
+            "[账号设置](/usercenter/account-password \"账号设置\")[我的关注](/usercenter/follow \"我的关注\")[我的收藏](/usercenter/favorite \"我的收藏\")[申请的报道](/seek-report-new?tabKey=2 \"申请的报道\")退出登录",
+            "* [36氪Auto](https://img.36krcdn.com/hsossms/20230605/v2_384be8e4c1e942a28cf13a2e427fe211@18900718_oswg78404oswg320oswg320_img_png)",
+            "[数字时氪](https://img.36krcdn.com/hsossms/20230605/v2_636063907bdc44389b46e7db9c761a38@18900718_oswg62424oswg320oswg320_img_png)",
+            "[未来消费](https://img.36krcdn.com/hsossms/20230210/v2_38d1cdabc8404b00806de58cbedb3b7b_oswg27031oswg320oswg320_img_png)",
+            "[智能涌现](https://img.36krcdn.com/hsossms/20230605/v2_da74c43ba887426f8fbccaede691b844@18900718_oswg76573oswg320oswg320_img_png)",
+            "[未来城市](https://img.36krcdn.com/hsossms/20230209/v2_8c2233c88a854c6496ff4f7842a9f9dd_oswg17629oswg320oswg320_img_png)"
+          ],
+          "evidence": "The provided snippets from Source [4] are insufficient for extracting evidence about \"大模型发展\" as they contain only navigation links and image URLs with no substantive information on the topic."
+        },
+        {
+          "id": 5,
+          "title": "Llm 大模型发展简史 - 九卷 - 博客园",
+          "url": "https://www.cnblogs.com/jiujuan/p/18752957",
+          "description": "环境成本：大模型训练碳排放高，可持续发展受质疑。 六、未来趋势 模型高效化：降低训练成本（如MoE架构、模型压缩技术）。 多模态融合：视频、3D等多维度数据建模。 具身智能：结合机器人、传感器实现物理世界交互。",
+          "snippets": [
+            "* [众包](https://www.cnblogs.com/cmt/p/18500368)",
+            "* [赞助商](https://www.cnblogs.com/cmt/p/19316348)",
+            "* [![写随笔](//assets.cnblogs.com/icons/newpost.svg)](https://i.cnblogs.com/EditPosts.aspx?opt=1 \"写随笔\")",
+            "[![简洁模式](//assets.cnblogs.com/icons/lite-mode-on.svg)](javascript:void(0) \"简洁模式启用，您在访问他人博客时会使用简洁款皮肤展示\")",
+            "[简洁模式 ...](javascript:void(0) \"简洁模式会使用简洁款皮肤显示所有博客\")",
+            "[九卷(沉思录)-关注技术应用&架构、管理](https://www.cnblogs.com/jiujuan)"
+          ],
+          "evidence": "The provided snippets from Source [5] are insufficient to extract evidence about \"大模型发展\" as they contain only navigation links, interface elements, and blog metadata without any factual content on the topic."
+        },
+        {
+          "id": 6,
+          "title": "大模型从裸模型到AI Agent的技术演进路径-开发者社区-阿里云",
+          "url": "https://developer.aliyun.com/article/1661470",
+          "description": "本文深入剖析2025年大模型发展脉络，涵盖裸模型与手工指令工程、向量检索、文本处理与知识图谱构建、自动化提示生成、ReAct多步推理及AI Agent崛起六大模块。从技术细节到未来趋势，结合最新进展探讨核心算法、工具栈与挑战，强调模块化、自动化、多模态等关键方向，同时指出计算资源、数据 ...",
+          "snippets": [
+            "[大模型](https://www.aliyun.com/product/tongyi)[产品](https://www.aliyun.com/product/list)[解决方案](https://www.aliyun.com/solution/tech-solution/)[权益](https://www.aliyun.com/benefit)[定价](https://www.aliyun.com/price)[云市场](https://market.aliyun.com/)[伙伴](https://partner.aliyun.com/management/v2)[服务](https://www.aliyun.com/service)[了解阿里云](https://www.aliyun.com/about)",
+            "[![](https://img.alicdn.com/imgextra/i2/O1CN01bYc1m81RrcSAyOjMu_!!6000000002165-54-tps-60-60.apng)",
+            "[开发者社区](https://developer.aliyun.com/)[![千问大模型](https://ucc.alicdn.com/pic/developer-ecology/rxups6ft4xmoi_814933f48c3b4574843058e8efd245d4.png)](/tongyi/)",
+            "[阿里云开发者社区用户服务协议](https://developer.aliyun.com/article/768092)》和",
+            "《[阿里云开发者社区知识产权保护指引](https://developer.aliyun.com/article/768093)》。如果您发现本社区中有涉嫌抄袭的内容，填写",
+            "本文深入剖析2025年大模型发展脉络，涵盖裸模型与手工指令工程、向量检索、文本处理与知识图谱构建、自动化提示生成、ReAct多步推理及AI Agent崛起六大模块。从技术细节到未来趋势，结合最新进展探讨核心算法、工具栈与挑战，强调模块化、自动化、多模态等关键方向，同时指出计算资源、数据质量和安全伦理等问题。适合关注大模型前沿动态的技术从业者与研究者。"
+          ],
+          "evidence": "Based solely on the provided snippet from Source [6], it is insufficient to extract specific evidence bullets about \"大模型发展\" (large model development). The snippet contains only navigational links, branding images, legal notices, and a general introductory paragraph describing the article's scope. It does not contain any concrete factual statements about the development path, technological milestones, or specific trends in large model evolution.\n\nTherefore, no evidence can be extracted."
+        },
+        {
+          "id": 7,
+          "title": "国产大模型发展按下\"提速键\"",
+          "url": "https://paper.people.com.cn/rmlt/pc/content/202512/31/content_30130640.html",
+          "description": "国产大模型发展按下\"提速键\" 清华大学计算机科学与技术系教授、博导 邓志东 《人民论坛》（2025年12月31日 第 02版） 2025年，中国在大模型技术迭代速度方面表现出显著的活跃度，已成为全球大模型技术迭代速度最快的国家之一。",
+          "snippets": [
+            "![](../../../pic/202512/31/db4fe782-a0bd-4374-a135-fb4932a33684.jpg.2)",
+            "[å¨æ´»åä¸­å½ä¸­ä¹¦ååä¸çç­å·](content_30130637.html)",
+            "[ä»¥èªä¸»åæ°ä¸å¼æ¾åæ°å±å¡æ°ä¼å¿](content_30130638.html)",
+            "[âåäºäºâæ¶ææ°å­æ¿åºå»ºè®¾åç»](content_30130639.html)",
+            "[å½äº§å¤§æ¨¡ååå±æä¸âæéé®â](content_30130640.html)",
+            "[åºååè°åå±æå¼ç»æµåå±çºµæ·±ç©ºé´](content_30130641.html)"
+          ],
+          "evidence": "Based on the provided snippets from Source [7], it is insufficient to extract specific, factual evidence bullets about \"大模型发展\". The snippets are primarily navigational links or image references with generic titles and do not contain substantive information or claims about the development of large models."
+        },
+        {
+          "id": 8,
+          "title": "报告丨2025年中国大模型行业发展研究报告_腾讯新闻",
+          "url": "https://news.qq.com/rain/a/20251116A05DVG00",
+          "description": "以CBDG分析可知，中国大模型企业的竞争格局正在发生深刻转变，从技术和产品单点对决转向全方位的体系化竞争，核心是生态构建、技术研发、行业 ...",
+          "snippets": [
+            "报告丨2025年中国大模型行业发展研究报告\\_腾讯新闻",
+            "报告丨2025年中国大模型行业发展研究报告",
+            "====================="
+          ],
+          "evidence": "Based solely on the provided snippets from Source [8], it is insufficient to extract any factual evidence bullets about \"大模型发展\". The snippets only repeat the title of a report and do not contain any specific information, data, or claims regarding the development of large models."
+        }
+      ],
+      "run_name": "more_sources"
+    },
+    {
+      "topic": "AI 监管趋势",
+      "lang": "zh",
+      "min_sources": 3,
+      "max_results": 12,
+      "max_pages": 8,
+      "provider": "auto",
+      "model_id": "deepseek-chat",
+      "score": 0.812,
+      "metrics": {
+        "length": 1008,
+        "citations": 12,
+        "source_count": 8,
+        "section_coverage": {
+          "Overview": false,
+          "Key Points": false,
+          "Notable": false,
+          "Sources": false,
+          "概览": false,
+          "要点": true,
+          "数据": true,
+          "来源": false
+        },
+        "scores": {
+          "sections": 0.25,
+          "sources": 1.0,
+          "length": 1.0,
+          "citations": 1.0
+        }
+      },
+      "summary_md": "# AI 监管趋势报告\n\n## 概述\n随着人工智能技术的飞速发展，全球主要经济体正积极构建相应的监管框架。当前，人工智能监管呈现出从原则性指导向具体立法演进、从单一工具向多元治理扩展的趋势。各国监管路径存在差异，但核心目标均在于平衡技术创新与风险防控，并试图在激烈的国际竞争中维护自身优势。\n\n## 关键要点\n*   **欧盟确立了全球首个综合性人工智能立法框架。** 2024年正式生效的《人工智能法案》和新版《欧盟产品责任指令》标志着其区域性人工智能法律体系建立迈出重要一步[5]。该法案为全球人工智能监管设定了基准[6]。\n*   **美国倾向于采用渐进式、部门化的监管思路。** 短期内可能不会出台联邦层面的综合性人工智能立法，而是通过行政命令、指引、执法及行业自律等多层面举措推动负责任的人工智能发展[5]。新政府强调要保持美国在全球人工智能领域的竞争优势[5]。\n*   **中国将生成式人工智能作为监管重点。** 2024年，算法备案成为常态化义务，大模型备案规则进一步明晰且数量显著增加，同时通过多项标准与指南细化安全评估、内容标识等领域的规则[5]。\n*   **韩国成为亚洲首个制定综合性人工智能法律的国家。** 其在2024年通过了《人工智能发展和建立信任基本法》[5]，紧随欧盟之后发布了其“AI基本法”[6]。\n*   **新加坡主要采用非约束性的指南和建议对人工智能进行治理**[5]。\n*   **生成式人工智能、算法安全、内容标识与产品责任成为核心监管对象。** 各国监管步伐加速，旨在应对快速演进的技术（如生成式AI、智能体AI）带来的挑战[5][6]。\n*   **政策工具呈现多元化趋势。** 监管手段从强制性立法（如欧盟）向指南、标准及行业自律等多元工具扩展[5]。\n*   **技术快速演进对现有监管框架的适应性与国际合作构成持续挑战。** 各国政府和监管机构正竞相应对包括生成式人工智能、智能体人工智能和主权人工智能系统在内的快速发展的技术[6]。\n\n## 关键数据/统计\n*   未在提供的证据中发现可靠的具体统计数据。\n\n## 参考文献\n1.  未使用（证据不足）\n2.  未使用（证据不足）\n3.  未使用（证据不足）\n4.  未使用（证据不足）\n5.  综合信息源（证据汇编）\n6.  综合信息源（证据汇编）\n7.  未使用（证据不足）\n8.  未使用（证据不足）",
+      "sources": [
+        {
+          "id": 1,
+          "title": "全球人工智能立法动态与治理趋势：2026年政策全景扫描-36氪",
+          "url": "https://www.36kr.com/p/3678814524338697",
+          "description": "全球 AI 立法进入密集调整期!欧盟推迟高风险条款实施，美日韩版权争议现松动，多国竞相布局算力基建。监管在创新激励与风险控制间寻求平衡 ...",
+          "snippets": [
+            "[账号设置](/usercenter/account-password \"账号设置\")[我的关注](/usercenter/follow \"我的关注\")[我的收藏](/usercenter/favorite \"我的收藏\")[申请的报道](/seek-report-new?tabKey=2 \"申请的报道\")退出登录",
+            "* [36氪Auto](https://img.36krcdn.com/hsossms/20230605/v2_384be8e4c1e942a28cf13a2e427fe211@18900718_oswg78404oswg320oswg320_img_png)",
+            "[数字时氪](https://img.36krcdn.com/hsossms/20230605/v2_636063907bdc44389b46e7db9c761a38@18900718_oswg62424oswg320oswg320_img_png)",
+            "[未来消费](https://img.36krcdn.com/hsossms/20230210/v2_38d1cdabc8404b00806de58cbedb3b7b_oswg27031oswg320oswg320_img_png)",
+            "[智能涌现](https://img.36krcdn.com/hsossms/20230605/v2_da74c43ba887426f8fbccaede691b844@18900718_oswg76573oswg320oswg320_img_png)",
+            "[未来城市](https://img.36krcdn.com/hsossms/20230209/v2_8c2233c88a854c6496ff4f7842a9f9dd_oswg17629oswg320oswg320_img_png)"
+          ],
+          "evidence": "The provided snippets from Source [1] are insufficient for extracting evidence about \"AI 监管趋势\" (AI regulatory trends). The snippets consist solely of website navigation elements (e.g., \"账号设置\", \"我的关注\") and image links for various content channels (e.g., \"数字时氪\", \"智能涌现\"), containing no substantive information on the topic."
+        },
+        {
+          "id": 2,
+          "title": "全球人工智能立法趋势与企业治理要点 - 知乎",
+          "url": "https://zhuanlan.zhihu.com/p/2013182292152043421",
+          "description": "二、全球人工智能治理的共性趋势 随着人工智能的不断发展并渗透到公共和私人生活的关键领域，各国的监管力度也正在不断增强。 综合 2025 年以来主要国家和地区的人工智能立法，可以观察到全球 AI 治理呈现出一些重要的共性趋势。",
+          "snippets": [
+            "Error fetching the webpage: 403 Client Error: Forbidden for url: https://zhuanlan.zhihu.com/p/2013182292152043421"
+          ],
+          "evidence": "Based on the provided snippets, it is insufficient to extract evidence about \"AI 监管趋势\" (AI Regulatory Trends). The only available source, [2], could not be accessed due to a 403 Forbidden error, and no content snippets from that source were provided for analysis."
+        },
+        {
+          "id": 3,
+          "title": "2025年全球人工智能法律政策分析：69个国家和地区已制定ai相关法规 - 报告精读 - 未来智库",
+          "url": "https://www.vzkoo.com/read/20250624e890a688592a78855f005bdc.html",
+          "description": "人工智能法律政策图景研究报告（2025年）-中国信通院.pdf 人工智能法律政策图景研究报告（2025年）-中国信通院。伴随人工智能技术的快速突破与变革性影响，世界各国竞相发力，加大人工智能立法和监管力度，各类法律政策不断涌现。截至2024年底，全球已有69个国家和地区制定了人工智能相关政策 ...",
+          "snippets": [
+            "Error fetching the webpage: 403 Client Error: Forbidden for url: https://www.vzkoo.com/read/20250624e890a688592a78855f005bdc.html"
+          ],
+          "evidence": "Based on the provided snippet, it is insufficient to extract evidence bullets about \"AI 监管趋势\" (AI Regulatory Trends). The only available information is an error message stating that access to the source was forbidden, and no factual content from the report itself is present.\n\n**Insufficient Information:** The provided snippet from Source [3] contains no substantive data, statistics, or policy descriptions regarding AI regulatory trends. It only reports a technical access error (403 Forbidden). Therefore, no evidence can be extracted."
+        },
+        {
+          "id": 4,
+          "title": "国内外AI监管政策：数据安全法、生成内容合规性——人工智能时代的法律边界与创新平衡",
+          "url": "https://www.woshipm.com/ai/6229889.html",
+          "description": "一、纵观全球 AI 监管格局：从\"野蛮生长\"到\"规则重塑\" 随着ChatGPT、Sora等生成式AI技术爆发式发展，全球监管机构正加速构建\"安全围栏\"。2023年至今，欧盟、美国、中国等主要经济体密集出台AI专项法规，核心聚焦两大领域：【数据安全风险防控】与【生成",
+          "snippets": [
+            "[电商产品经理从入门到进阶](https://ke.qidianla.com/courses/ecpm1)",
+            "30756篇文章](https://www.woshipm.com/category/it)",
+            "19296篇文章](https://www.woshipm.com/category/pd)",
+            "15175篇文章](https://www.woshipm.com/category/operate)",
+            "9569篇文章](https://www.woshipm.com/category/pmd)",
+            "5325篇文章](https://www.woshipm.com/category/zhichang)"
+          ],
+          "evidence": "The provided snippets are insufficient for extracting evidence about \"AI 监管趋势\" (AI regulatory trends). The snippets consist only of website navigation links (e.g., links to article category pages and an online course) and contain no substantive information on AI regulation, data security laws, or content compliance. [4]"
+        },
+        {
+          "id": 5,
+          "title": "人工智能监管前沿：中、美、欧及全球其他地区趋势洞察",
+          "url": "https://www.junhe.com/legal-updates/2624",
+          "description": "目前可见的是，在AI的监管方面，哪种监管方式更为有效、哪些监管的底线能够保住未来AI发展的安全，似乎在全球范围内还没有一个检验出的\"黄金\"做法。 2025年是AI发展的重要一年，这一年在欧洲、美国监管的路径是否会发生重要的变化也非常值得关注。",
+          "snippets": [
+            "2025.02.26 [董潇](/professionals/255) [郭静荷](/professionals/605) 史晓宇 张续耀 陈超 栗晔",
+            "2024年，生成式人工智能成为我国人工智能监管规制重点。算法备案流程在落地两年后已成为常态化合规义务，生成式人工智能大模型备案规则在2024年进一步明晰，大模型备案数量显著增加。立法层面，尽管未出台法规层面新的立法，多项标准、指南或其征求意见稿发布，进一步针对安全评估、内容标识、数据训练安全、应急响应等等亟待监管的领域提出细化规则。人工智能侵权判例及执法活动也不断增加。",
+            "**欧盟**。自2018年起欧盟委员会发布了一系列欧洲人工智能策略的政策动议，包括《人工智能助力欧洲》（2018）、《关于人工智能——卓越与信任的欧洲路径白皮书》（2020），旨在促进AI技术及产品发展的同时，确立适当的道德和法律框架，即实现发展与信任的双重目标。2024年欧洲在人工智能立法取得重大进展：欧盟《人工智能法案》、新版《欧盟产品责任指令》的正式生效标志着区域内人工智能法律体系的建立迈出重要一步。同时，欧盟对企业使用个人数据进行算法训练、超大在线平台的执法活动也走在世界前列。",
+            "**美国**。根据2024年12月美国两党众议院人工智能工作组发布的国会工作蓝图性文件，为保持美国在人工智能领域的领导地位，政策制定者应该继续促进人工智能创新。立法上应采用渐进式的监管思路，对于人工智能发展中需规制的问题，以部门化、有针对性、可实现的方式进行回应，形成灵活的监管框架。支持这种敏捷范式需要美国立法者不断学习、评估和适应1。可以预见，与欧盟不同，美国在短期内可能不会出台联邦层面的人工智能综合性立法。但针对数据隐私、国家安全、标准制定、知识产权保护、内容真实性等人工智能治理的重点问题，美国已通过行政命令、行政指引及执法，司法判例，技术标准，行业自律等不同层面做出的努力，推动负责任的人工智能的发展。",
+            "2025年特朗普上任后进一步签署行政命令，撤销前政府妨碍人工智能发展的行政命令，强调要采取措施保持美国在全球人工智能领域的竞争优势。2其领导下的美国未来政策走向值得继续关注。",
+            "**其他法域**也各有侧重。例如，新加坡主要采用非约束性的指南和建议对人工智能进行治理。韩国在24年通过《人工智能发展和建立信任基本法》，成为亚洲首个制定此类法律的国家。"
+          ],
+          "evidence": "- 2024年，中国将生成式人工智能作为监管重点，算法备案成为常态化义务，大模型备案规则进一步明晰且数量显著增加，同时通过多项标准与指南细化安全评估、内容标识等领域的规则。[5]\n- 欧盟在人工智能立法上取得重大进展，2024年正式生效的《人工智能法案》和新版《欧盟产品责任指令》标志着其区域人工智能法律体系建立迈出重要一步。[5]\n- 美国倾向于采用渐进式、部门化的监管思路，短期内可能不会出台联邦层面的综合性人工智能立法，而是通过行政命令、指引、执法及行业自律等多层面推动负责任的人工智能发展。[5]\n- 2025年特朗普上任后签署行政命令，撤销前政府妨碍人工智能发展的政策，强调要保持美国在全球人工智能领域的竞争优势。[5]\n- 韩国在2024年通过《人工智能发展和建立信任基本法》，成为亚洲首个制定此类综合性人工智能法律的国家。[5]\n- 新加坡主要采用非约束性的指南和建议对人工智能进行治理。[5]"
+        },
+        {
+          "id": 6,
+          "title": "Omdia： AI发展速度超越监管，未来AI监管趋势将如何？",
+          "url": "https://www.eet-china.com/mp/a443855.html",
+          "description": "当前关键挑战在于欧盟《AI法案》等直接性AI监管法规，与影响数字市场的更广泛立法框架之间可能产生的重叠与冲突。 七大监管挑战：Omdia分析指出政策制定者必须应对的七大关键监管挑战（图1），以实现对AI技术的有效治理。",
+          "snippets": [
+            "[**![](https://mbb.eet-china.com/uc_server/avatar.php?uid=4006671&size=small)**",
+            "Omdia](https://www.eet-china.com/mp/u4006671)",
+            "[**AI芯片/汽车电子：实战技术方案分享​**](https://m.zhundao.net/event/389898?track=0021) [**你的下一个8位项目，该升级了**](http://pubads.g.doubleclick.net/gampad/clk?id=7185295890&iu=/122049170/TEXT_AD)",
+            "![](https://static.mianbaoban-assets.eet-china.com/xinyu-images/MBXY-CR-eaa490cb6acb91de704a6ce39c151cfb.gif)",
+            "**Omdia最新报告《AI监管：全球政策与监管框架分析》的研究显示，各国政府及监管机构正竞相应对快速演进的人工智能技术，包括生成式AI、主体性AI和主权AI系统。**",
+            "* 欧盟确立全球基准：欧盟颁布了全球首个综合性AI监管框架，为国际标准树立标杆。此后，韩国发布了《AI基本法》。"
+          ],
+          "evidence": "Based solely on the provided snippets from Source [6], the following evidence can be extracted:\n\n*   Governments and regulatory bodies are racing to respond to rapidly evolving AI technologies, including generative AI, agentic AI, and sovereign AI systems. [6]\n*   The European Union has established a global benchmark by enacting the world's first comprehensive AI regulatory framework. [6]\n*   Following the EU's action, South Korea has released its \"AI Basic Act.\" [6]\n\nThe snippets are insufficient to provide the requested 3-6 evidence bullets, as they contain only three relevant factual statements on the topic."
+        },
+        {
+          "id": 7,
+          "title": "人工智能大爆发后的监管命题：风险分类、路线分化与地缘政治阴影 - BBC News 中文",
+          "url": "https://www.bbc.com/zhongwen/articles/ckgnvl7pwr3o/simp",
+          "description": "专家称目前亟需监管的 AI 风险集中在三个领域：深度伪造技术的滥用、个人隐私保护，以及公共基础设施安全防护。面临两大关键难题：一是拿捏 ...",
+          "snippets": [
+            "人工智能大爆发后的监管命题：风险分类、路线分化与地缘政治阴影 - BBC News 中文",
+            "[繁](/zhongwen/articles/ckgnvl7pwr3o/trad)",
+            "* [国际](/zhongwen/topics/c83plve5vmjt/simp)",
+            "* [中国](/zhongwen/topics/ckr7mn6r003t/simp)",
+            "* [香港](/zhongwen/topics/cezw73jk755t/simp)",
+            "* [台湾](/zhongwen/topics/cd6qem06z92t/simp)"
+          ],
+          "evidence": "Based solely on the provided snippets from Source [7], it is insufficient to extract any factual evidence bullets about \"AI 监管趋势\" (AI regulatory trends). The snippets only contain the article's title, language/regional navigation links, and topic tags, with no substantive content on regulatory approaches, risk classifications, or geopolitical factors."
+        },
+        {
+          "id": 8,
+          "title": "Gartner发布2026年网络安全重要趋势",
+          "url": "https://www.gartner.com/cn/newsroom/press-releases/2026-top-cybersecurity-trends",
+          "description": "商业与技术洞察公司Gartner发布2026年网络安全重要趋势，并表示推动这些趋势形成的因素包括人工智能（AI）的无序发展、地缘政治紧张局势、监管环境的波动和日益加剧的威胁态势。 Gartner研究总监Alex Michaels表示：\"今年，随着这些因素的交织叠加，网络安全领导者正身处未知的挑战领域，网络 ...",
+          "snippets": [
+            "Error fetching the webpage: 403 Client Error: Forbidden for url: https://www.gartner.com/cn/newsroom/press-releases/2026-top-cybersecurity-trends"
+          ],
+          "evidence": "Based on the provided snippet, it is insufficient to extract any evidence bullets about \"AI 监管趋势\" (AI Regulatory Trends). The only information available is that an error occurred when attempting to fetch the source material, and there is no substantive content to analyze.\n\n**Insufficient Information:** The provided snippet for Source [8] contains no factual content about AI regulatory trends, only a technical error message. Therefore, no evidence can be extracted."
+        }
+      ],
+      "run_name": "more_sources"
+    },
+    {
+      "topic": "大模型发展",
+      "lang": "zh",
+      "min_sources": 3,
+      "max_results": 8,
+      "max_pages": 5,
+      "provider": "hf-inference",
+      "model_id": "deepseek-chat",
+      "score": 0.812,
+      "metrics": {
+        "length": 809,
+        "citations": 12,
+        "source_count": 5,
+        "section_coverage": {
+          "Overview": false,
+          "Key Points": false,
+          "Notable": false,
+          "Sources": false,
+          "概览": false,
+          "要点": true,
+          "数据": true,
+          "来源": false
+        },
+        "scores": {
+          "sections": 0.25,
+          "sources": 1.0,
+          "length": 1.0,
+          "citations": 1.0
+        }
+      },
+      "summary_md": "# 大模型发展报告\n\n## 概述\n大模型是当前人工智能领域的核心前沿，其发展经历了从理论萌芽到规模化应用的关键跃迁。其演进脉络清晰，从早期理论奠基，到“大数据+大算力”范式的确立，再到模型规模的爆发式增长，最终迈向与千行百业深度融合的智能应用时代。这一过程不仅伴随着核心架构的成熟与多模态拓展，也面临着对齐安全与落地应用等关键挑战。\n\n## 关键要点\n*   大模型技术的发展历程包括从**萌芽、范式开创、规模竞赛到智能时代**的演进脉络 [3]。\n*   大模型技术的完整生命周期涵盖**数据准备、预训练、对齐安全至应用落地**等多个阶段 [3]。\n*   大模型在模态上主要可区分为**语言模型、视觉模型及多模态模型**，各有其技术特点 [3]。\n*   在理论基础方面，**2006年Geoffrey Hinton等人发表的深度信念网络（DBN）论文**，为后续大模型的发展奠定了重要基础 [3]。\n*   一个关键的范式转折点是**2009年ImageNet数据集的发布**，它提供了百万级标注样本，催生了“大数据+大算力”的研发范式 [3]。\n*   另一个标志性事件是**2012年AlexNet在ImageNet竞赛中夺冠**，它展示了利用GPU训练大规模神经网络的巨大潜力，开启了“模型越大、性能越好”的行业认知 [3]。\n*   当前，大模型的发展重点正从**规模竞赛向与行业深度融合的智能应用时代**演进 [3]。\n*   在这一新阶段，**技术挑战与机遇并存**，其中**对齐安全与落地应用**成为关键环节 [3]。\n\n## 主要数据与统计\n*   无可靠统计数据。\n\n## 参考文献\n1.  Source [1] - 无可用内容（检索错误）\n2.  Source [2] - 无相关事实内容\n3.  Source [3] - 大模型发展相关信息\n4.  Source [4] - 无可用片段提供",
+      "sources": [
+        {
+          "id": 1,
+          "title": "大模型应用发展综述 - 知乎专栏",
+          "url": "https://zhuanlan.zhihu.com/p/1910651341254141033",
+          "description": "以下内容来自腾讯工程师 christy 前言 2025站在Agent爆发元年，大模型Agent能力觉醒：从\"鹦鹉学舌\"到\"外科手术\"，从\"单细胞\"到\"有机体\"，从\"执行者\"到\"决策者\"，技术跃迁的同时也在重构生产力边界。本文通过系统性回顾大模型应用的发展框架，带你穿透技术迷雾，解构大模型应用发展 ...",
+          "snippets": [
+            "Error fetching the webpage: 403 Client Error: Forbidden for url: https://zhuanlan.zhihu.com/p/1910651341254141033"
+          ],
+          "evidence": "Based on the provided snippets, it is insufficient to extract any evidence bullets about \"大模型发展\". The only available source [1] returned an error and no factual content was retrieved."
+        },
+        {
+          "id": 2,
+          "title": "36氪研究院 | 2025年中国大模型行业发展研究报告",
+          "url": "https://www.36kr.com/p/3535560529451913",
+          "description": "CBDG四维生态成为新范式，体系化竞争成为关键 当前，中国大模型行业正迎来一场由技术迭代与生态重构共同驱动的关键变革。报告数据显示，2024年 ...",
+          "snippets": [
+            "[账号设置](/usercenter/account-password \"账号设置\")[我的关注](/usercenter/follow \"我的关注\")[我的收藏](/usercenter/favorite \"我的收藏\")[申请的报道](/seek-report-new?tabKey=2 \"申请的报道\")退出登录",
+            "* [36氪Auto](https://img.36krcdn.com/hsossms/20230605/v2_384be8e4c1e942a28cf13a2e427fe211@18900718_oswg78404oswg320oswg320_img_png)",
+            "[数字时氪](https://img.36krcdn.com/hsossms/20230605/v2_636063907bdc44389b46e7db9c761a38@18900718_oswg62424oswg320oswg320_img_png)",
+            "[未来消费](https://img.36krcdn.com/hsossms/20230210/v2_38d1cdabc8404b00806de58cbedb3b7b_oswg27031oswg320oswg320_img_png)",
+            "[智能涌现](https://img.36krcdn.com/hsossms/20230605/v2_da74c43ba887426f8fbccaede691b844@18900718_oswg76573oswg320oswg320_img_png)",
+            "[未来城市](https://img.36krcdn.com/hsossms/20230209/v2_8c2233c88a854c6496ff4f7842a9f9dd_oswg17629oswg320oswg320_img_png)"
+          ],
+          "evidence": "The provided snippets from Source [2] are insufficient for extracting evidence about \"大模型发展\" (large model development). The snippets consist solely of navigation links and image tags for various content channels (e.g., 36氪Auto, 数字时氪, 未来消费), and contain no factual information or data related to the topic."
+        },
+        {
+          "id": 3,
+          "title": "2025年大模型技术综述：从发展历程、生命周期到多模态应用",
+          "url": "https://cozyoct1.github.io/2025/10/27/LLM/2025年大模型技术综述：从发展历程、生命周期到多模态应用/",
+          "description": "文章引言 研究背景 大模型是指通过海量数据训练、参数规模达数十亿至万亿级别的深度学习模型，其核心特征包括庞大参数量、海量训练数据以及预训练与微调相结合的训练范式。从基于Transformer架构的NLP预训练模型起步，大模型已演进到能够协同处理文本、图像、音频等多模态信息的新阶段，正 ...",
+          "snippets": [
+            "2025年大模型技术综述：从发展历程、生命周期到多模态应用 | CozyOct1‘s Blog",
+            "2025-10-27 | [LLM](/categories/LLM/) |  阅读 |  4.4k 字 |  17 分钟",
+            "本文围绕“发展历程—生命周期—模态划分—模型类型”四个核心维度系统梳理大模型技术：首先沿时间轴呈现从萌芽、范式开创、规模竞赛到智能时代的演进脉络；继而剖析数据准备、预训练、对齐安全至应用落地的完整生命周期；随后区分语言、视觉及多模态模型的技术特点；最后从基座模型与垂直行业应用双视角展开分析，最终总结现状并展望未来趋势。",
+            "* **2006年9月**：Geoffrey Hinton等人发表深度信念网络（DBN）论文，重启深度学习热潮，为后续大模型奠定理论基础。",
+            "* **2009年6月**：ImageNet数据集正式发布，提供百万级标注样本，催生“大数据+大算力”范式。",
+            "* **2012年10月**：AlexNet在ImageNet竞赛中夺冠，展示GPU训练大规模神经网络的潜力，开启“模型越大、性能越好”的认知。"
+          ],
+          "evidence": "- 大模型技术的发展历程包括萌芽、范式开创、规模竞赛到智能时代的演进脉络 [3]。\n- 大模型技术的完整生命周期涵盖数据准备、预训练、对齐安全至应用落地等阶段 [3]。\n- 大模型在模态上可区分为语言、视觉及多模态模型，各有其技术特点 [3]。\n- 2006年Geoffrey Hinton等人发表的深度信念网络（DBN）论文，为后续大模型奠定了理论基础 [3]。\n- 2009年ImageNet数据集的发布，提供了百万级标注样本，催生了“大数据+大算力”的范式 [3]。\n- 2012年AlexNet在ImageNet竞赛中夺冠，展示了GPU训练大规模神经网络的潜力，开启了“模型越大、性能越好”的认知 [3]。"
+        },
+        {
+          "id": 4,
+          "title": "万字长文详解 Ai 大模型发展史：从萌芽到爆发，史上最全整理_大模型发展历程-csdn博客",
+          "url": "https://blog.csdn.net/CSDN_430422/article/details/149507169",
+          "description": "大 模型 的发展史，可以看作是从符号逻辑到智能涌现的技术革命。人工智能领域中的大模型（Large Language Models, LLMs）是近年来最引人注目的技术突破之一。它们不仅重塑了自然语言处理的范式，更推动人类社会进入通用人工智能（AGI）的探索深水区。这场革命并非一蹴而就，而是跨越半个世纪的 ...",
+          "snippets": [],
+          "evidence": "Based on the provided information, it is insufficient to extract evidence about \"大模型发展\" (Large Model Development). The entry for Source [4] indicates that no snippets from that source were supplied for analysis. Therefore, there is no factual content from the given materials to use for creating evidence bullets."
+        },
+        {
+          "id": 5,
+          "title": "2025年中国大模型行业发展研究报告解读（40页附下载）",
+          "url": "https://www.sohu.com/a/951286910_121713417",
+          "description": "总结 《2025年中国大模型行业发展研究报告》全面、深入地分析了中国大模型产业的发展态势。 报告指出，中国大模型产业正处于快速发展阶段，政策支持、技术创新、生态构建等多方面因素共同推动其向前发展。",
+          "snippets": [
+            "Error fetching the webpage: 403 Client Error: Forbidden for url: https://www.sohu.com/a/951286910_121713417"
+          ],
+          "evidence": "Based solely on the provided snippet, it is **insufficient** to extract any evidence bullets about \"大模型发展\". The only information given is that an error occurred when attempting to fetch the source material, and there is no substantive content to analyze."
+        }
+      ],
+      "run_name": "qwen_7b"
+    },
+    {
+      "topic": "AI 监管趋势",
+      "lang": "zh",
+      "min_sources": 3,
+      "max_results": 8,
+      "max_pages": 5,
+      "provider": "hf-inference",
+      "model_id": "deepseek-chat",
+      "score": 0.844,
+      "metrics": {
+        "length": 898,
+        "citations": 14,
+        "source_count": 5,
+        "section_coverage": {
+          "Overview": false,
+          "Key Points": false,
+          "Notable": false,
+          "Sources": false,
+          "概览": false,
+          "要点": true,
+          "数据": true,
+          "来源": true
+        },
+        "scores": {
+          "sections": 0.375,
+          "sources": 1.0,
+          "length": 1.0,
+          "citations": 1.0
+        }
+      },
+      "summary_md": "# 关于人工智能监管趋势的研究报告\n\n## 概述\n随着以生成式人工智能为代表的技术的迅猛发展，全球人工智能监管框架正经历快速演进，并呈现出加速与分化的态势。本报告聚焦于2024年中国、欧盟、美国及部分亚洲国家/地区的关键监管动态，旨在梳理当前全球人工智能治理的主要路径与格局。\n\n## 关键要点\n*   全球人工智能监管已进入一个快速发展的阶段，各国和地区的监管重点与路径选择因技术焦点和地缘政治因素而显著分化 [4]。\n*   在中国，2024年的监管重点明确转向生成式人工智能，大模型备案制度趋于明晰且备案数量显著增加 [4]。\n*   中国通过发布多项标准与指南，细化了人工智能在安全评估、内容标识等具体领域的规则要求 [4]。\n*   欧盟在人工智能立法上取得里程碑式进展，其《人工智能法案》和新版《欧盟产品责任指令》于2024年正式生效，标志着区域综合性人工智能法律框架的初步建立 [4]。\n*   美国的监管路径与欧盟不同，倾向于采取渐进式、部门化的监管思路，短期内可能不会出台联邦层面的综合性人工智能立法 [4]。\n*   美国正通过行政命令、行政指引、执法行动、司法判例及行业自律等多渠道，推动在数据隐私、国家安全等重点领域的负责任人工智能发展 [4]。\n*   在亚洲其他地区，治理模式呈现多样性。新加坡主要依靠非约束性的指南和建议对人工智能进行治理 [4]。\n*   韩国在2024年通过了《人工智能发展和建立信任基本法》，成为亚洲首个制定综合性人工智能法律的国家 [4]。\n*   总体而言，全球监管格局呈现出“严厉立法”（如欧盟）与“灵活治理”（如美国、新加坡）并存的局面 [4]。\n\n## 重要数据/统计\n*   报告中未提供具体的统计数据，如各国大模型备案的具体数量或法案通过的具体日期。\n\n## 参考文献\n1.  来源 [1]：未提供有效信息。\n2.  来源 [2]：因技术原因无法访问。\n3.  来源 [3]：未提供有效信息。\n4.  来源 [4]：综合信息源（内容涵盖中、欧、美、新、韩等多地2024年AI监管动态）。\n5.  来源 [5]：因技术原因无法访问。",
+      "sources": [
+        {
+          "id": 1,
+          "title": "全球人工智能立法动态与治理趋势：2026年政策全景扫描-36氪",
+          "url": "https://www.36kr.com/p/3678814524338697",
+          "description": "全球 AI 立法进入密集调整期!欧盟推迟高风险条款实施，美日韩版权争议现松动，多国竞相布局算力基建。监管在创新激励与风险控制间寻求平衡 ...",
+          "snippets": [
+            "[账号设置](/usercenter/account-password \"账号设置\")[我的关注](/usercenter/follow \"我的关注\")[我的收藏](/usercenter/favorite \"我的收藏\")[申请的报道](/seek-report-new?tabKey=2 \"申请的报道\")退出登录",
+            "* [36氪Auto](https://img.36krcdn.com/hsossms/20230605/v2_384be8e4c1e942a28cf13a2e427fe211@18900718_oswg78404oswg320oswg320_img_png)",
+            "[数字时氪](https://img.36krcdn.com/hsossms/20230605/v2_636063907bdc44389b46e7db9c761a38@18900718_oswg62424oswg320oswg320_img_png)",
+            "[未来消费](https://img.36krcdn.com/hsossms/20230210/v2_38d1cdabc8404b00806de58cbedb3b7b_oswg27031oswg320oswg320_img_png)",
+            "[智能涌现](https://img.36krcdn.com/hsossms/20230605/v2_da74c43ba887426f8fbccaede691b844@18900718_oswg76573oswg320oswg320_img_png)",
+            "[未来城市](https://img.36krcdn.com/hsossms/20230209/v2_8c2233c88a854c6496ff4f7842a9f9dd_oswg17629oswg320oswg320_img_png)"
+          ],
+          "evidence": "The provided snippets from Source [1] are insufficient for extracting evidence about \"AI 监管趋势\" (AI Regulatory Trends). The snippets consist entirely of website navigation elements (e.g., \"账号设置\", \"我的关注\") and image links for various content channels (e.g., \"数字时氪\", \"智能涌现\"), containing no substantive information on legislative dynamics, governance trends, or policy related to AI."
+        },
+        {
+          "id": 2,
+          "title": "全球 Ai 监管报告：20 国监管体系全景透视 - 知乎",
+          "url": "https://zhuanlan.zhihu.com/p/26527979520",
+          "description": "转载自公众号：互联网法律匠 2025年2月12日，瑞士联邦通信管理局（OFCOM）发布了一份《Analysis of artificial intelligence regulation in countries and regions around the world》（世界各国和地区人工智能法规分析）调研报告，对全球重要的国家和地区的人工智能立法及监管情况进行了整理汇总和分析，介绍了 20 个选定 ...",
+          "snippets": [
+            "Error fetching the webpage: 403 Client Error: Forbidden for url: https://zhuanlan.zhihu.com/p/26527979520"
+          ],
+          "evidence": "Based on the provided snippets, it is impossible to extract any evidence about \"AI 监管趋势\" from Source [2]. The source material could not be accessed due to a technical error (403 Forbidden), resulting in no usable content for analysis."
+        },
+        {
+          "id": 3,
+          "title": "国内外AI监管政策：数据安全法、生成内容合规性——人工智能时代的法律边界与创新平衡",
+          "url": "https://www.woshipm.com/ai/6229889.html",
+          "description": "一、纵观全球 AI 监管格局：从\"野蛮生长\"到\"规则重塑\" 随着ChatGPT、Sora等生成式AI技术爆发式发展，全球监管机构正加速构建\"安全围栏\"。2023年至今，欧盟、美国、中国等主要经济体密集出台AI专项法规，核心聚焦两大领域：【数据安全风险防控】与【生成",
+          "snippets": [
+            "[电商产品经理从入门到进阶](https://ke.qidianla.com/courses/ecpm1)",
+            "30756篇文章](https://www.woshipm.com/category/it)",
+            "19296篇文章](https://www.woshipm.com/category/pd)",
+            "15175篇文章](https://www.woshipm.com/category/operate)",
+            "9569篇文章](https://www.woshipm.com/category/pmd)",
+            "5325篇文章](https://www.woshipm.com/category/zhichang)"
+          ],
+          "evidence": "The provided snippets from Source [3] are insufficient for extracting evidence about \"AI 监管趋势\" (AI regulatory trends). The snippets consist only of website navigation links (e.g., links to article category pages and an online course), with no substantive text or information regarding AI policies, data security laws, content compliance, or legal boundaries.\n\nTherefore, I cannot extract any evidence bullets from this material."
+        },
+        {
+          "id": 4,
+          "title": "人工智能监管前沿：中、美、欧及全球其他地区趋势洞察",
+          "url": "https://www.junhe.com/legal-updates/2624",
+          "description": "目前可见的是，在AI的监管方面，哪种监管方式更为有效、哪些监管的底线能够保住未来AI发展的安全，似乎在全球范围内还没有一个检验出的\"黄金\"做法。 2025年是AI发展的重要一年，这一年在欧洲、美国监管的路径是否会发生重要的变化也非常值得关注。",
+          "snippets": [
+            "2025.02.26 [董潇](/professionals/255) [郭静荷](/professionals/605) 史晓宇 张续耀 陈超 栗晔",
+            "2024年，生成式人工智能成为我国人工智能监管规制重点。算法备案流程在落地两年后已成为常态化合规义务，生成式人工智能大模型备案规则在2024年进一步明晰，大模型备案数量显著增加。立法层面，尽管未出台法规层面新的立法，多项标准、指南或其征求意见稿发布，进一步针对安全评估、内容标识、数据训练安全、应急响应等等亟待监管的领域提出细化规则。人工智能侵权判例及执法活动也不断增加。",
+            "**欧盟**。自2018年起欧盟委员会发布了一系列欧洲人工智能策略的政策动议，包括《人工智能助力欧洲》（2018）、《关于人工智能——卓越与信任的欧洲路径白皮书》（2020），旨在促进AI技术及产品发展的同时，确立适当的道德和法律框架，即实现发展与信任的双重目标。2024年欧洲在人工智能立法取得重大进展：欧盟《人工智能法案》、新版《欧盟产品责任指令》的正式生效标志着区域内人工智能法律体系的建立迈出重要一步。同时，欧盟对企业使用个人数据进行算法训练、超大在线平台的执法活动也走在世界前列。",
+            "**美国**。根据2024年12月美国两党众议院人工智能工作组发布的国会工作蓝图性文件，为保持美国在人工智能领域的领导地位，政策制定者应该继续促进人工智能创新。立法上应采用渐进式的监管思路，对于人工智能发展中需规制的问题，以部门化、有针对性、可实现的方式进行回应，形成灵活的监管框架。支持这种敏捷范式需要美国立法者不断学习、评估和适应1。可以预见，与欧盟不同，美国在短期内可能不会出台联邦层面的人工智能综合性立法。但针对数据隐私、国家安全、标准制定、知识产权保护、内容真实性等人工智能治理的重点问题，美国已通过行政命令、行政指引及执法，司法判例，技术标准，行业自律等不同层面做出的努力，推动负责任的人工智能的发展。",
+            "2025年特朗普上任后进一步签署行政命令，撤销前政府妨碍人工智能发展的行政命令，强调要采取措施保持美国在全球人工智能领域的竞争优势。2其领导下的美国未来政策走向值得继续关注。",
+            "**其他法域**也各有侧重。例如，新加坡主要采用非约束性的指南和建议对人工智能进行治理。韩国在24年通过《人工智能发展和建立信任基本法》，成为亚洲首个制定此类法律的国家。"
+          ],
+          "evidence": "- 2024年，生成式人工智能成为中国人工智能监管规制的重点，大模型备案规则进一步明晰且备案数量显著增加，同时多项标准与指南的发布细化了安全评估、内容标识等领域的规则 [4]。\n- 欧盟在人工智能立法上取得重大进展，2024年《人工智能法案》和新版《欧盟产品责任指令》正式生效，标志着区域人工智能法律体系的建立迈出重要一步 [4]。\n- 根据2024年美国两党众议院人工智能工作组的蓝图文件，美国立法上倾向于采用渐进式、部门化的监管思路，短期内可能不会出台联邦层面的综合性人工智能立法 [4]。\n- 美国已通过行政命令、行政指引、执法、司法判例及行业自律等多层面努力，推动在数据隐私、国家安全等重点问题上的负责任人工智能发展 [4]。\n- 新加坡主要采用非约束性的指南和建议对人工智能进行治理，而韩国在2024年通过了《人工智能发展和建立信任基本法》，成为亚洲首个制定此类法律的国家 [4]。"
+        },
+        {
+          "id": 5,
+          "title": "Ai领域趋势深度洞察报告_全球_发展_模型 - 搜狐",
+          "url": "https://www.sohu.com/a/992961718_121776691",
+          "description": "趋势三：从野蛮生长到有章可循， AI 发展步入规范轨道 AI 能力跟影响急剧扩大起来，全球监管框架加快建立了。 中国推出《人工智能生成合成内容标识办法》，要求对 AI 内容进行显式标识。 欧盟《人工智能法案》依照风险等级分类监管，给全球 AI 治理树立标杆了。",
+          "snippets": [
+            "Error fetching the webpage: 403 Client Error: Forbidden for url: https://www.sohu.com/a/992961718_121776691"
+          ],
+          "evidence": "Based on the provided information, it is insufficient to extract evidence about \"AI 监管趋势\".\n\nThe only available source, [5], could not be accessed due to a 403 Forbidden error. No content or snippets from the source are available for analysis. Therefore, no evidence can be extracted."
+        }
+      ],
+      "run_name": "qwen_7b"
+    },
+    {
+      "topic": "大模型发展",
+      "lang": "zh",
+      "min_sources": 3,
+      "max_results": 8,
+      "max_pages": 5,
+      "provider": "hf-inference",
+      "model_id": "deepseek-chat",
+      "score": 0.701,
+      "metrics": {
+        "length": 561,
+        "citations": 5,
+        "source_count": 5,
+        "section_coverage": {
+          "Overview": false,
+          "Key Points": false,
+          "Notable": false,
+          "Sources": false,
+          "概览": false,
+          "要点": true,
+          "数据": true,
+          "来源": false
+        },
+        "scores": {
+          "sections": 0.25,
+          "sources": 1.0,
+          "length": 1.0,
+          "citations": 0.556
+        }
+      },
+      "summary_md": "# 大模型发展研究报告\n\n## 概述\n本报告旨在梳理大模型发展的关键脉络。报告将依据现有证据，从理论基础、关键要素积累、发展范式形成等方面进行阐述。需要指出的是，由于部分证据缺失，报告对当前挑战与未来展望的讨论将受到限制，相关内容需依赖其他资料进行补充。\n\n## 关键要点\n*   2006年，深度学习领域的关键论文发表，为后续大模型的发展奠定了重要的算法与理论基础。[2]\n*   2009年，大规模高质量数据集（如ImageNet）的出现，确立了“大数据”在人工智能研发中的核心地位，催生了新的研发范式。[2]\n*   2012年，基于GPU的大规模神经网络训练在图像识别竞赛中取得突破性成果，验证了强大算力对于提升模型性能的关键作用。[2]\n*   至此，“大数据+大算力”成为推动人工智能模型性能持续提升的核心技术路径。[2]\n*   同时，“模型规模与性能正相关”的认知得以确立，并成为驱动后续大模型规模不断扩大的核心指导思想。[2]\n\n## 重要数据/统计\n*   无可靠统计数据。\n\n## 参考文献\n1.  网页抓取失败 - 无可用内容。\n2.  大模型发展简史关键节点 - 无可用URL。\n3.  未提供具体内容片段。\n4.  网页导航元素 - 无实质性内容。\n5.  网页导航与介绍 - 无具体事实陈述。",
+      "sources": [
+        {
+          "id": 1,
+          "title": "大模型发展历程：技术演进与趋势洞察 - 知乎",
+          "url": "https://zhuanlan.zhihu.com/p/1914627044056232828",
+          "description": "摘要本文系统梳理了 2017 年至 2025 年间，大语言模型（LLM）领域的关键进展、技术演进和代表模型。从 Transformer 架构的革命性突破，到 GPT-3 的规模化成功，再到多模态模型的兴起，大模型技术正在重塑人工智能…",
+          "snippets": [
+            "Error fetching the webpage: 403 Client Error: Forbidden for url: https://zhuanlan.zhihu.com/p/1914627044056232828"
+          ],
+          "evidence": "Based on the provided snippets, it is insufficient to extract evidence about \"大模型发展\" as the only available information for Source [1] is an error message stating the webpage could not be fetched. No factual content from the source is available for analysis."
+        },
+        {
+          "id": 2,
+          "title": "2025年大模型技术综述：从发展历程、生命周期到多模态应用",
+          "url": "https://cozyoct1.github.io/2025/10/27/LLM/2025年大模型技术综述：从发展历程、生命周期到多模态应用/",
+          "description": "文章引言 研究背景 大模型是指通过海量数据训练、参数规模达数十亿至万亿级别的深度学习模型，其核心特征包括庞大参数量、海量训练数据以及预训练与微调相结合的训练范式。从基于Transformer架构的NLP预训练模型起步，大模型已演进到能够协同处理文本、图像、音频等多模态信息的新阶段，正 ...",
+          "snippets": [
+            "2025年大模型技术综述：从发展历程、生命周期到多模态应用 | CozyOct1‘s Blog",
+            "2025-10-27 | [LLM](/categories/LLM/) |  阅读 |  4.4k 字 |  17 分钟",
+            "本文围绕“发展历程—生命周期—模态划分—模型类型”四个核心维度系统梳理大模型技术：首先沿时间轴呈现从萌芽、范式开创、规模竞赛到智能时代的演进脉络；继而剖析数据准备、预训练、对齐安全至应用落地的完整生命周期；随后区分语言、视觉及多模态模型的技术特点；最后从基座模型与垂直行业应用双视角展开分析，最终总结现状并展望未来趋势。",
+            "* **2006年9月**：Geoffrey Hinton等人发表深度信念网络（DBN）论文，重启深度学习热潮，为后续大模型奠定理论基础。",
+            "* **2009年6月**：ImageNet数据集正式发布，提供百万级标注样本，催生“大数据+大算力”范式。",
+            "* **2012年10月**：AlexNet在ImageNet竞赛中夺冠，展示GPU训练大规模神经网络的潜力，开启“模型越大、性能越好”的认知。"
+          ],
+          "evidence": "- 2006年9月，Geoffrey Hinton等人发表深度信念网络（DBN）论文，重启深度学习热潮，为大模型奠定了理论基础。[2]\n- 2009年6月，ImageNet数据集的发布提供了百万级标注样本，催生了“大数据+大算力”的研发范式。[2]\n- 2012年10月，AlexNet在ImageNet竞赛中夺冠，展示了GPU训练大规模神经网络的潜力，开启了“模型越大、性能越好”的认知。[2]"
+        },
+        {
+          "id": 3,
+          "title": "万字长文详解 Ai 大模型发展史：从萌芽到爆发，史上最全整理_大模型发展历程-csdn博客",
+          "url": "https://blog.csdn.net/CSDN_430422/article/details/149507169",
+          "description": "大 模型 的发展史，可以看作是从符号逻辑到智能涌现的技术革命。人工智能领域中的大模型（Large Language Models, LLMs）是近年来最引人注目的技术突破之一。它们不仅重塑了自然语言处理的范式，更推动人类社会进入通用人工智能（AGI）的探索深水区。这场革命并非一蹴而就，而是跨越半个世纪的 ...",
+          "snippets": [],
+          "evidence": "Based on the provided information, it is insufficient to extract evidence bullets about \"大模型发展.\" The entry for Source [3] indicates that no specific content snippets were supplied for analysis."
+        },
+        {
+          "id": 4,
+          "title": "36氪研究院 | 2025年中国大模型行业发展研究报告",
+          "url": "https://www.36kr.com/p/3535560529451913",
+          "description": "CBDG四维生态成为新范式，体系化竞争成为关键 当前，中国大模型行业正迎来一场由技术迭代与生态重构共同驱动的关键变革。报告数据显示，2024年 ...",
+          "snippets": [
+            "[账号设置](/usercenter/account-password \"账号设置\")[我的关注](/usercenter/follow \"我的关注\")[我的收藏](/usercenter/favorite \"我的收藏\")[申请的报道](/seek-report-new?tabKey=2 \"申请的报道\")退出登录",
+            "* [36氪Auto](https://img.36krcdn.com/hsossms/20230605/v2_384be8e4c1e942a28cf13a2e427fe211@18900718_oswg78404oswg320oswg320_img_png)",
+            "[数字时氪](https://img.36krcdn.com/hsossms/20230605/v2_636063907bdc44389b46e7db9c761a38@18900718_oswg62424oswg320oswg320_img_png)",
+            "[未来消费](https://img.36krcdn.com/hsossms/20230210/v2_38d1cdabc8404b00806de58cbedb3b7b_oswg27031oswg320oswg320_img_png)",
+            "[智能涌现](https://img.36krcdn.com/hsossms/20230605/v2_da74c43ba887426f8fbccaede691b844@18900718_oswg76573oswg320oswg320_img_png)",
+            "[未来城市](https://img.36krcdn.com/hsossms/20230209/v2_8c2233c88a854c6496ff4f7842a9f9dd_oswg17629oswg320oswg320_img_png)"
+          ],
+          "evidence": "The provided snippets from Source [4] are insufficient for extracting evidence about \"大模型发展\" as they contain only navigation elements and image links with no substantive information on the topic."
+        },
+        {
+          "id": 5,
+          "title": "大模型从裸模型到AI Agent的技术演进路径-开发者社区-阿里云",
+          "url": "https://developer.aliyun.com/article/1661470",
+          "description": "本文深入剖析2025年大模型发展脉络，涵盖裸模型与手工指令工程、向量检索、文本处理与知识图谱构建、自动化提示生成、ReAct多步推理及AI Agent崛起六大模块。从技术细节到未来趋势，结合最新进展探讨核心算法、工具栈与挑战，强调模块化、自动化、多模态等关键方向，同时指出计算资源、数据 ...",
+          "snippets": [
+            "[大模型](https://www.aliyun.com/product/tongyi)[产品](https://www.aliyun.com/product/list)[解决方案](https://www.aliyun.com/solution/tech-solution/)[权益](https://www.aliyun.com/benefit)[定价](https://www.aliyun.com/price)[云市场](https://market.aliyun.com/)[伙伴](https://partner.aliyun.com/management/v2)[服务](https://www.aliyun.com/service)[了解阿里云](https://www.aliyun.com/about)",
+            "[![](https://img.alicdn.com/imgextra/i2/O1CN01bYc1m81RrcSAyOjMu_!!6000000002165-54-tps-60-60.apng)",
+            "[开发者社区](https://developer.aliyun.com/)[![千问大模型](https://ucc.alicdn.com/pic/developer-ecology/rxups6ft4xmoi_814933f48c3b4574843058e8efd245d4.png)](/tongyi/)",
+            "[阿里云开发者社区用户服务协议](https://developer.aliyun.com/article/768092)》和",
+            "《[阿里云开发者社区知识产权保护指引](https://developer.aliyun.com/article/768093)》。如果您发现本社区中有涉嫌抄袭的内容，填写",
+            "本文深入剖析2025年大模型发展脉络，涵盖裸模型与手工指令工程、向量检索、文本处理与知识图谱构建、自动化提示生成、ReAct多步推理及AI Agent崛起六大模块。从技术细节到未来趋势，结合最新进展探讨核心算法、工具栈与挑战，强调模块化、自动化、多模态等关键方向，同时指出计算资源、数据质量和安全伦理等问题。适合关注大模型前沿动态的技术从业者与研究者。"
+          ],
+          "evidence": "Based solely on the provided snippet from source [5], it is insufficient to extract specific evidence bullets about \"大模型发展\" (large model development). The snippet primarily contains website navigation links, images, and a general introductory paragraph describing the article's scope, but does not provide concrete factual statements or data points about the development itself."
+        }
+      ],
+      "run_name": "llama3_8b"
+    },
+    {
+      "topic": "AI 监管趋势",
+      "lang": "zh",
+      "min_sources": 3,
+      "max_results": 8,
+      "max_pages": 5,
+      "provider": "hf-inference",
+      "model_id": "deepseek-chat",
+      "score": 0.67,
+      "metrics": {
+        "length": 796,
+        "citations": 5,
+        "source_count": 5,
+        "section_coverage": {
+          "Overview": false,
+          "Key Points": false,
+          "Notable": false,
+          "Sources": false,
+          "概览": false,
+          "要点": false,
+          "数据": true,
+          "来源": false
+        },
+        "scores": {
+          "sections": 0.125,
+          "sources": 1.0,
+          "length": 1.0,
+          "citations": 0.556
+        }
+      },
+      "summary_md": "# 人工智能（AI）监管趋势报告\n\n## 概述\n\n随着人工智能技术的快速发展，全球主要经济体正加速建立相应的监管框架，以应对技术带来的机遇与挑战。2024年，全球人工智能监管格局呈现出多元化的发展路径，不同国家和地区根据自身的技术基础、产业结构和治理理念，采取了差异化的监管策略。从中国的细化规则到欧盟的综合性立法，再到美国的渐进式路径，全球正在形成多层次、多模式的AI治理体系。\n\n## 关键趋势\n\n*   **中国监管重点转向生成式AI**：2024年，中国的监管重点转向生成式人工智能，大模型备案规则进一步明晰且备案数量显著增加。同时，多项标准与指南针对安全评估、内容标识等领域提出了细化规则[2]。\n*   **欧盟取得重大立法进展**：欧盟在2024年取得了重大立法进展，其《人工智能法案》和新版《产品责任指令》正式生效，标志着区域内统一人工智能法律体系的建立迈出重要一步[2]。\n*   **美国采取渐进式监管路径**：美国倾向于采用渐进式、部门化的监管思路。短期内可能不会出台联邦层面的综合性人工智能立法，而是通过行政命令、指引、执法及行业自律等多层面推动负责任AI的发展[2]。\n*   **美国政策强调保持竞争优势**：2025年特朗普上任后签署行政命令，撤销前政府妨碍AI发展的政策，强调要保持美国在全球人工智能领域的竞争优势[2]。\n*   **韩国成为亚洲首个制定综合性AI法律的国家**：韩国在2024年通过《人工智能发展和建立信任基本法》，成为亚洲首个制定此类综合性法律的国家[2]。\n\n## 相关数据与统计\n\n*   无可靠统计数据。\n\n## 参考文献\n\n1.  未提供有效信息。\n2.  未提供具体报告标题。信息源自用户提供的证据片段。\n3.  内容获取错误，无有效信息。\n4.  未提供有效信息。\n5.  访问受限（403 Forbidden），无有效信息。",
+      "sources": [
+        {
+          "id": 1,
+          "title": "全球人工智能立法动态与治理趋势：2026年政策全景扫描-36氪",
+          "url": "https://www.36kr.com/p/3678814524338697",
+          "description": "全球 AI 立法进入密集调整期!欧盟推迟高风险条款实施，美日韩版权争议现松动，多国竞相布局算力基建。监管在创新激励与风险控制间寻求平衡 ...",
+          "snippets": [
+            "[账号设置](/usercenter/account-password \"账号设置\")[我的关注](/usercenter/follow \"我的关注\")[我的收藏](/usercenter/favorite \"我的收藏\")[申请的报道](/seek-report-new?tabKey=2 \"申请的报道\")退出登录",
+            "* [36氪Auto](https://img.36krcdn.com/hsossms/20230605/v2_384be8e4c1e942a28cf13a2e427fe211@18900718_oswg78404oswg320oswg320_img_png)",
+            "[数字时氪](https://img.36krcdn.com/hsossms/20230605/v2_636063907bdc44389b46e7db9c761a38@18900718_oswg62424oswg320oswg320_img_png)",
+            "[未来消费](https://img.36krcdn.com/hsossms/20230210/v2_38d1cdabc8404b00806de58cbedb3b7b_oswg27031oswg320oswg320_img_png)",
+            "[智能涌现](https://img.36krcdn.com/hsossms/20230605/v2_da74c43ba887426f8fbccaede691b844@18900718_oswg76573oswg320oswg320_img_png)",
+            "[未来城市](https://img.36krcdn.com/hsossms/20230209/v2_8c2233c88a854c6496ff4f7842a9f9dd_oswg17629oswg320oswg320_img_png)"
+          ],
+          "evidence": "The provided snippets from Source [1] are insufficient for extracting evidence about \"AI 监管趋势\" (AI Regulatory Trends). The snippets consist entirely of website navigation elements (e.g., \"账号设置\", \"我的关注\") and image links for different content channels (e.g., \"数字时氪\", \"智能涌现\"), containing no substantive information on AI legislation or governance."
+        },
+        {
+          "id": 2,
+          "title": "人工智能监管前沿：中、美、欧及全球其他地区趋势洞察",
+          "url": "https://www.junhe.com/legal-updates/2624",
+          "description": "目前可见的是，在AI的监管方面，哪种监管方式更为有效、哪些监管的底线能够保住未来AI发展的安全，似乎在全球范围内还没有一个检验出的\"黄金\"做法。 2025年是AI发展的重要一年，这一年在欧洲、美国监管的路径是否会发生重要的变化也非常值得关注。",
+          "snippets": [
+            "2025.02.26 [董潇](/professionals/255) [郭静荷](/professionals/605) 史晓宇 张续耀 陈超 栗晔",
+            "2024年，生成式人工智能成为我国人工智能监管规制重点。算法备案流程在落地两年后已成为常态化合规义务，生成式人工智能大模型备案规则在2024年进一步明晰，大模型备案数量显著增加。立法层面，尽管未出台法规层面新的立法，多项标准、指南或其征求意见稿发布，进一步针对安全评估、内容标识、数据训练安全、应急响应等等亟待监管的领域提出细化规则。人工智能侵权判例及执法活动也不断增加。",
+            "**欧盟**。自2018年起欧盟委员会发布了一系列欧洲人工智能策略的政策动议，包括《人工智能助力欧洲》（2018）、《关于人工智能——卓越与信任的欧洲路径白皮书》（2020），旨在促进AI技术及产品发展的同时，确立适当的道德和法律框架，即实现发展与信任的双重目标。2024年欧洲在人工智能立法取得重大进展：欧盟《人工智能法案》、新版《欧盟产品责任指令》的正式生效标志着区域内人工智能法律体系的建立迈出重要一步。同时，欧盟对企业使用个人数据进行算法训练、超大在线平台的执法活动也走在世界前列。",
+            "**美国**。根据2024年12月美国两党众议院人工智能工作组发布的国会工作蓝图性文件，为保持美国在人工智能领域的领导地位，政策制定者应该继续促进人工智能创新。立法上应采用渐进式的监管思路，对于人工智能发展中需规制的问题，以部门化、有针对性、可实现的方式进行回应，形成灵活的监管框架。支持这种敏捷范式需要美国立法者不断学习、评估和适应1。可以预见，与欧盟不同，美国在短期内可能不会出台联邦层面的人工智能综合性立法。但针对数据隐私、国家安全、标准制定、知识产权保护、内容真实性等人工智能治理的重点问题，美国已通过行政命令、行政指引及执法，司法判例，技术标准，行业自律等不同层面做出的努力，推动负责任的人工智能的发展。",
+            "2025年特朗普上任后进一步签署行政命令，撤销前政府妨碍人工智能发展的行政命令，强调要采取措施保持美国在全球人工智能领域的竞争优势。2其领导下的美国未来政策走向值得继续关注。",
+            "**其他法域**也各有侧重。例如，新加坡主要采用非约束性的指南和建议对人工智能进行治理。韩国在24年通过《人工智能发展和建立信任基本法》，成为亚洲首个制定此类法律的国家。"
+          ],
+          "evidence": "- 2024年，生成式人工智能成为我国人工智能监管规制重点，大模型备案规则进一步明晰且备案数量显著增加，同时多项标准与指南针对安全评估、内容标识等领域提出细化规则[2]。\n- 欧盟在2024年取得重大立法进展，其《人工智能法案》和新版《产品责任指令》正式生效，标志着区域内人工智能法律体系的建立迈出重要一步[2]。\n- 美国倾向于采用渐进式、部门化的监管思路，短期内可能不会出台联邦层面的综合性人工智能立法，而是通过行政命令、指引、执法及行业自律等多层面推动负责任AI的发展[2]。\n- 2025年特朗普上任后签署行政命令，撤销前政府妨碍AI发展的政策，强调要保持美国在全球人工智能领域的竞争优势[2]。\n- 韩国在2024年通过《人工智能发展和建立信任基本法》，成为亚洲首个制定此类综合性法律的国家[2]。"
+        },
+        {
+          "id": 3,
+          "title": "全球 Ai 监管报告：20 国监管体系全景透视 - 知乎",
+          "url": "https://zhuanlan.zhihu.com/p/26527979520",
+          "description": "转载自公众号：互联网法律匠 2025年2月12日，瑞士联邦通信管理局（OFCOM）发布了一份《Analysis of artificial intelligence regulation in countries and regions around the world》（世界各国和地区人工智能法规分析）调研报告，对全球重要的国家和地区的人工智能立法及监管情况进行了整理汇总和分析，介绍了 20 个选定 ...",
+          "snippets": [
+            "Error fetching the webpage: 403 Client Error: Forbidden for url: https://zhuanlan.zhihu.com/p/26527979520"
+          ],
+          "evidence": "Based solely on the provided snippet, it is **insufficient** to extract any evidence bullets about \"AI 监管趋势\".\n\nThe only available information from Source [3] is that an error occurred when attempting to fetch the content, and no substantive data or analysis from the report is present."
+        },
+        {
+          "id": 4,
+          "title": "国内外AI监管政策：数据安全法、生成内容合规性——人工智能时代的法律边界与创新平衡",
+          "url": "https://www.woshipm.com/ai/6229889.html",
+          "description": "一、纵观全球 AI 监管格局：从\"野蛮生长\"到\"规则重塑\" 随着ChatGPT、Sora等生成式AI技术爆发式发展，全球监管机构正加速构建\"安全围栏\"。2023年至今，欧盟、美国、中国等主要经济体密集出台AI专项法规，核心聚焦两大领域：【数据安全风险防控】与【生成",
+          "snippets": [
+            "[电商产品经理从入门到进阶](https://ke.qidianla.com/courses/ecpm1)",
+            "30756篇文章](https://www.woshipm.com/category/it)",
+            "19296篇文章](https://www.woshipm.com/category/pd)",
+            "15175篇文章](https://www.woshipm.com/category/operate)",
+            "9569篇文章](https://www.woshipm.com/category/pmd)",
+            "5325篇文章](https://www.woshipm.com/category/zhichang)"
+          ],
+          "evidence": "The provided snippets are insufficient for extracting evidence about \"AI 监管趋势\" (AI regulatory trends). The snippets consist only of website navigation links and article category counts, with no substantive information on AI regulation, data security laws, or content compliance. [4]"
+        },
+        {
+          "id": 5,
+          "title": "2025年全球人工智能法律政策分析：69个国家和地区已制定ai相关法规 - 报告精读 - 未来智库",
+          "url": "https://www.vzkoo.com/read/20250624e890a688592a78855f005bdc.html",
+          "description": "人工智能法律政策图景研究报告（2025年）-中国信通院.pdf 人工智能法律政策图景研究报告（2025年）-中国信通院。伴随人工智能技术的快速突破与变革性影响，世界各国竞相发力，加大人工智能立法和监管力度，各类法律政策不断涌现。截至2024年底，全球已有69个国家和地区制定了人工智能相关政策 ...",
+          "snippets": [
+            "Error fetching the webpage: 403 Client Error: Forbidden for url: https://www.vzkoo.com/read/20250624e890a688592a78855f005bdc.html"
+          ],
+          "evidence": "Based on the provided information, it is insufficient to extract evidence bullets about \"AI 监管趋势\" (AI Regulatory Trends).\n\nThe only available source, [5], cannot be accessed due to a \"403 Forbidden\" error. The snippet only provides the title of a report and a URL, but contains no substantive content or data about specific regulatory trends. Therefore, no factual evidence can be extracted."
+        }
+      ],
+      "run_name": "llama3_8b"
+    }
+  ]
+}
